@@ -3,11 +3,9 @@ import time
 from selenium import webdriver
 
 driver = webdriver.Chrome()
-
-# Enable Network
+#ad block
 driver.execute_cdp_cmd("Network.enable", {})
 
-# Block ad URLs
 driver.execute_cdp_cmd(
     "Network.setBlockedURLs",
     {
