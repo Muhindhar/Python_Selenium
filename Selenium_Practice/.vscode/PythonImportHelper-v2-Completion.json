@@ -1,0 +1,812 @@
+[
+    {
+        "label": "wait",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\nwait = WebDriverWait(driver,10)\ndriver.get(\"http://automationexercise.com\")\nhomepg = driver.find_element(By.XPATH,\"//img[@alt='Website for automation practice']\").is_displayed()\nif(homepg):\n    print(\"Displayed\")\nelse:\n    print(\"Not displayed\")\nctctus = driver.find_element(By.XPATH,\"//a[normalize-space()='Contact us']\").click()",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "wait",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "wait = WebDriverWait(driver,10)\ndriver.get(\"http://automationexercise.com\")\nhomepg = driver.find_element(By.XPATH,\"//img[@alt='Website for automation practice']\").is_displayed()\nif(homepg):\n    print(\"Displayed\")\nelse:\n    print(\"Not displayed\")\nctctus = driver.find_element(By.XPATH,\"//a[normalize-space()='Contact us']\").click()\nname= driver.find_element(By.XPATH,\"//input[@placeholder='Name']\").send_keys(\"Muhindhar\")\nemail = driver.find_element(By.XPATH,\"//input[@placeholder='Email']\").send_keys(\"muhi2701@gmail.com\")",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "homepg",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "homepg = driver.find_element(By.XPATH,\"//img[@alt='Website for automation practice']\").is_displayed()\nif(homepg):\n    print(\"Displayed\")\nelse:\n    print(\"Not displayed\")\nctctus = driver.find_element(By.XPATH,\"//a[normalize-space()='Contact us']\").click()\nname= driver.find_element(By.XPATH,\"//input[@placeholder='Name']\").send_keys(\"Muhindhar\")\nemail = driver.find_element(By.XPATH,\"//input[@placeholder='Email']\").send_keys(\"muhi2701@gmail.com\")\nsub = driver.find_element(By.XPATH,\"//input[@placeholder='Subject']\").send_keys(\"Demo\")\nmsg = driver.find_element(By.XPATH,\"//textarea[@id='message']\").send_keys(\"Text as demo msg!!!\")",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "ctctus",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "ctctus = driver.find_element(By.XPATH,\"//a[normalize-space()='Contact us']\").click()\nname= driver.find_element(By.XPATH,\"//input[@placeholder='Name']\").send_keys(\"Muhindhar\")\nemail = driver.find_element(By.XPATH,\"//input[@placeholder='Email']\").send_keys(\"muhi2701@gmail.com\")\nsub = driver.find_element(By.XPATH,\"//input[@placeholder='Subject']\").send_keys(\"Demo\")\nmsg = driver.find_element(By.XPATH,\"//textarea[@id='message']\").send_keys(\"Text as demo msg!!!\")\nchoosefile = driver.find_element(By.XPATH, \"//input[@name='upload_file']\")\nchoosefile.send_keys(r\"C:\\Users\\Muhindhar S V\\OneDrive\\Documents\\GCE pp certit.pdf\")\nsubmit = driver.find_element(By.XPATH,\"//input[@name='submit']\")\nsubmit.click()\nwait.until(EC.alert_is_present())   ",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "email",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "email = driver.find_element(By.XPATH,\"//input[@placeholder='Email']\").send_keys(\"muhi2701@gmail.com\")\nsub = driver.find_element(By.XPATH,\"//input[@placeholder='Subject']\").send_keys(\"Demo\")\nmsg = driver.find_element(By.XPATH,\"//textarea[@id='message']\").send_keys(\"Text as demo msg!!!\")\nchoosefile = driver.find_element(By.XPATH, \"//input[@name='upload_file']\")\nchoosefile.send_keys(r\"C:\\Users\\Muhindhar S V\\OneDrive\\Documents\\GCE pp certit.pdf\")\nsubmit = driver.find_element(By.XPATH,\"//input[@name='submit']\")\nsubmit.click()\nwait.until(EC.alert_is_present())   \nalert = driver.switch_to.alert\nalert.accept()",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "sub",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "sub = driver.find_element(By.XPATH,\"//input[@placeholder='Subject']\").send_keys(\"Demo\")\nmsg = driver.find_element(By.XPATH,\"//textarea[@id='message']\").send_keys(\"Text as demo msg!!!\")\nchoosefile = driver.find_element(By.XPATH, \"//input[@name='upload_file']\")\nchoosefile.send_keys(r\"C:\\Users\\Muhindhar S V\\OneDrive\\Documents\\GCE pp certit.pdf\")\nsubmit = driver.find_element(By.XPATH,\"//input[@name='submit']\")\nsubmit.click()\nwait.until(EC.alert_is_present())   \nalert = driver.switch_to.alert\nalert.accept()\nwait.until(EC.visibility_of_element_located((By.XPATH, \"//div[@class='status alert alert-success']\")))",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "msg = driver.find_element(By.XPATH,\"//textarea[@id='message']\").send_keys(\"Text as demo msg!!!\")\nchoosefile = driver.find_element(By.XPATH, \"//input[@name='upload_file']\")\nchoosefile.send_keys(r\"C:\\Users\\Muhindhar S V\\OneDrive\\Documents\\GCE pp certit.pdf\")\nsubmit = driver.find_element(By.XPATH,\"//input[@name='submit']\")\nsubmit.click()\nwait.until(EC.alert_is_present())   \nalert = driver.switch_to.alert\nalert.accept()\nwait.until(EC.visibility_of_element_located((By.XPATH, \"//div[@class='status alert alert-success']\")))\nsucc = driver.find_element(By.XPATH,\"//div[@class='status alert alert-success']\").text",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "choosefile",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "choosefile = driver.find_element(By.XPATH, \"//input[@name='upload_file']\")\nchoosefile.send_keys(r\"C:\\Users\\Muhindhar S V\\OneDrive\\Documents\\GCE pp certit.pdf\")\nsubmit = driver.find_element(By.XPATH,\"//input[@name='submit']\")\nsubmit.click()\nwait.until(EC.alert_is_present())   \nalert = driver.switch_to.alert\nalert.accept()\nwait.until(EC.visibility_of_element_located((By.XPATH, \"//div[@class='status alert alert-success']\")))\nsucc = driver.find_element(By.XPATH,\"//div[@class='status alert alert-success']\").text\nif succ:",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "submit",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "submit = driver.find_element(By.XPATH,\"//input[@name='submit']\")\nsubmit.click()\nwait.until(EC.alert_is_present())   \nalert = driver.switch_to.alert\nalert.accept()\nwait.until(EC.visibility_of_element_located((By.XPATH, \"//div[@class='status alert alert-success']\")))\nsucc = driver.find_element(By.XPATH,\"//div[@class='status alert alert-success']\").text\nif succ:\n    print(\"Success\")\nelse:",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "alert",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "alert = driver.switch_to.alert\nalert.accept()\nwait.until(EC.visibility_of_element_located((By.XPATH, \"//div[@class='status alert alert-success']\")))\nsucc = driver.find_element(By.XPATH,\"//div[@class='status alert alert-success']\").text\nif succ:\n    print(\"Success\")\nelse:\n    print(\"Failed\")\nhomepg2 = driver.find_element(By.XPATH,\"//img[@alt='Website for automation practice']\").is_displayed()\nif(homepg2):",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "succ",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "succ = driver.find_element(By.XPATH,\"//div[@class='status alert alert-success']\").text\nif succ:\n    print(\"Success\")\nelse:\n    print(\"Failed\")\nhomepg2 = driver.find_element(By.XPATH,\"//img[@alt='Website for automation practice']\").is_displayed()\nif(homepg2):\n    print(\"Displayed\")\nelse:\n    print(\"Not displayed\")",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "homepg2",
+        "kind": 5,
+        "importPath": "AE_contactus6",
+        "description": "AE_contactus6",
+        "peekOfCode": "homepg2 = driver.find_element(By.XPATH,\"//img[@alt='Website for automation practice']\").is_displayed()\nif(homepg2):\n    print(\"Displayed\")\nelse:\n    print(\"Not displayed\")",
+        "detail": "AE_contactus6",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "AE_ExistingReg5",
+        "description": "AE_ExistingReg5",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.get(\"http://automationexercise.com\")\nsignup = driver.find_element(By.XPATH,\"//a[normalize-space()='Signup / Login']\")\nsignup.click()\nname = driver.find_element(By.XPATH,\"//input[@placeholder='Name']\").send_keys(\"demomuhi9\")\nemail = driver.find_element(By.XPATH,\"//input[@data-qa='signup-email']\").send_keys(\"muhi27@gmail.com\")\nsignupbtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Signup']\").click()\nerrmsg = driver.find_element(By.XPATH,\"//p[text()='Email Address already exist!']\").text\nstrmsg=\"Email Address already exist!\"",
+        "detail": "AE_ExistingReg5",
+        "documentation": {}
+    },
+    {
+        "label": "signup",
+        "kind": 5,
+        "importPath": "AE_ExistingReg5",
+        "description": "AE_ExistingReg5",
+        "peekOfCode": "signup = driver.find_element(By.XPATH,\"//a[normalize-space()='Signup / Login']\")\nsignup.click()\nname = driver.find_element(By.XPATH,\"//input[@placeholder='Name']\").send_keys(\"demomuhi9\")\nemail = driver.find_element(By.XPATH,\"//input[@data-qa='signup-email']\").send_keys(\"muhi27@gmail.com\")\nsignupbtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Signup']\").click()\nerrmsg = driver.find_element(By.XPATH,\"//p[text()='Email Address already exist!']\").text\nstrmsg=\"Email Address already exist!\"\nassert strmsg == errmsg,\"Message not shown\"",
+        "detail": "AE_ExistingReg5",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "AE_ExistingReg5",
+        "description": "AE_ExistingReg5",
+        "peekOfCode": "name = driver.find_element(By.XPATH,\"//input[@placeholder='Name']\").send_keys(\"demomuhi9\")\nemail = driver.find_element(By.XPATH,\"//input[@data-qa='signup-email']\").send_keys(\"muhi27@gmail.com\")\nsignupbtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Signup']\").click()\nerrmsg = driver.find_element(By.XPATH,\"//p[text()='Email Address already exist!']\").text\nstrmsg=\"Email Address already exist!\"\nassert strmsg == errmsg,\"Message not shown\"",
+        "detail": "AE_ExistingReg5",
+        "documentation": {}
+    },
+    {
+        "label": "email",
+        "kind": 5,
+        "importPath": "AE_ExistingReg5",
+        "description": "AE_ExistingReg5",
+        "peekOfCode": "email = driver.find_element(By.XPATH,\"//input[@data-qa='signup-email']\").send_keys(\"muhi27@gmail.com\")\nsignupbtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Signup']\").click()\nerrmsg = driver.find_element(By.XPATH,\"//p[text()='Email Address already exist!']\").text\nstrmsg=\"Email Address already exist!\"\nassert strmsg == errmsg,\"Message not shown\"",
+        "detail": "AE_ExistingReg5",
+        "documentation": {}
+    },
+    {
+        "label": "signupbtn",
+        "kind": 5,
+        "importPath": "AE_ExistingReg5",
+        "description": "AE_ExistingReg5",
+        "peekOfCode": "signupbtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Signup']\").click()\nerrmsg = driver.find_element(By.XPATH,\"//p[text()='Email Address already exist!']\").text\nstrmsg=\"Email Address already exist!\"\nassert strmsg == errmsg,\"Message not shown\"",
+        "detail": "AE_ExistingReg5",
+        "documentation": {}
+    },
+    {
+        "label": "errmsg",
+        "kind": 5,
+        "importPath": "AE_ExistingReg5",
+        "description": "AE_ExistingReg5",
+        "peekOfCode": "errmsg = driver.find_element(By.XPATH,\"//p[text()='Email Address already exist!']\").text\nstrmsg=\"Email Address already exist!\"\nassert strmsg == errmsg,\"Message not shown\"",
+        "detail": "AE_ExistingReg5",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "AE_IncorrectLogin",
+        "description": "AE_IncorrectLogin",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.get(\"https://automationexercise.com\")\nprint(\"Current URL:\", driver.current_url)\ndriver.find_element(By.XPATH, \"//a[normalize-space()='Signup / Login']\").click()\ndriver.find_element(By.XPATH, \"//input[@data-qa='login-email']\").send_keys(\"muhindhar27@gmail.com\")\ndriver.find_element(By.XPATH, \"//input[@placeholder='Password']\").send_keys(\"12345678\")\ndriver.find_element(By.XPATH, \"//button[normalize-space()='Login']\").click()\ntime.sleep(3)\ncheck = driver.find_element(By.XPATH,\"//p[normalize-space()='Your email or password is incorrect!']\").text",
+        "detail": "AE_IncorrectLogin",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 5,
+        "importPath": "AE_IncorrectLogin",
+        "description": "AE_IncorrectLogin",
+        "peekOfCode": "check = driver.find_element(By.XPATH,\"//p[normalize-space()='Your email or password is incorrect!']\").text\ncheckstr = \"Your email or password is incorrect!\"\nprint(check)\nassert check == checkstr,\"error msg not shown\"",
+        "detail": "AE_IncorrectLogin",
+        "documentation": {}
+    },
+    {
+        "label": "checkstr",
+        "kind": 5,
+        "importPath": "AE_IncorrectLogin",
+        "description": "AE_IncorrectLogin",
+        "peekOfCode": "checkstr = \"Your email or password is incorrect!\"\nprint(check)\nassert check == checkstr,\"error msg not shown\"",
+        "detail": "AE_IncorrectLogin",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "AE_Login",
+        "description": "AE_Login",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.get(\"https://automationexercise.com\")\nprint(\"Current URL:\", driver.current_url)\ndriver.find_element(By.XPATH, \"//a[normalize-space()='Signup / Login']\").click()\ndriver.find_element(By.XPATH, \"//input[@data-qa='login-email']\").send_keys(\"muhindhar27@gmail.com\")\ndriver.find_element(By.XPATH, \"//input[@placeholder='Password']\").send_keys(\"12345678\")\ndriver.find_element(By.XPATH, \"//button[normalize-space()='Login']\").click()\ntime.sleep(3)\nlogged_in = driver.find_element(By.XPATH,\"//a[contains(text(),'Logged in as')]\").is_displayed()",
+        "detail": "AE_Login",
+        "documentation": {}
+    },
+    {
+        "label": "logged_in",
+        "kind": 5,
+        "importPath": "AE_Login",
+        "description": "AE_Login",
+        "peekOfCode": "logged_in = driver.find_element(By.XPATH,\"//a[contains(text(),'Logged in as')]\").is_displayed()\nprint(\"Login Successful:\", logged_in)\ndriver.find_element(By.XPATH, \"//a[normalize-space()='Delete Account']\").click()\ntime.sleep(3)\naccount_deleted = driver.find_element(By.XPATH,\"//h2[contains(text(),'Account Deleted!')]\").is_displayed()\nprint(\"Account Deleted:\", account_deleted)\ndriver.quit()",
+        "detail": "AE_Login",
+        "documentation": {}
+    },
+    {
+        "label": "account_deleted",
+        "kind": 5,
+        "importPath": "AE_Login",
+        "description": "AE_Login",
+        "peekOfCode": "account_deleted = driver.find_element(By.XPATH,\"//h2[contains(text(),'Account Deleted!')]\").is_displayed()\nprint(\"Account Deleted:\", account_deleted)\ndriver.quit()",
+        "detail": "AE_Login",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "AE_Logout4",
+        "description": "AE_Logout4",
+        "peekOfCode": "driver = webdriver.Chrome()\nwait = WebDriverWait(driver,10)\ndriver.maximize_window()\ndriver.get(\"http://automationexercise.com\")\nhomepg = driver.find_element(By.XPATH,\"//img[@alt='Website for automation practice']\").is_displayed()\nif(homepg):\n    print(\"Displayed\")\nelse:\n    print(\"Not displayed\")\nsignupbtn = driver.find_element(By.XPATH,\"//a[normalize-space()='Signup / Login']\").click()",
+        "detail": "AE_Logout4",
+        "documentation": {}
+    },
+    {
+        "label": "wait",
+        "kind": 5,
+        "importPath": "AE_Logout4",
+        "description": "AE_Logout4",
+        "peekOfCode": "wait = WebDriverWait(driver,10)\ndriver.maximize_window()\ndriver.get(\"http://automationexercise.com\")\nhomepg = driver.find_element(By.XPATH,\"//img[@alt='Website for automation practice']\").is_displayed()\nif(homepg):\n    print(\"Displayed\")\nelse:\n    print(\"Not displayed\")\nsignupbtn = driver.find_element(By.XPATH,\"//a[normalize-space()='Signup / Login']\").click()\nemail = wait.until(EC.presence_of_element_located((By.XPATH,\"//input[@data-qa='login-email']\")))",
+        "detail": "AE_Logout4",
+        "documentation": {}
+    },
+    {
+        "label": "homepg",
+        "kind": 5,
+        "importPath": "AE_Logout4",
+        "description": "AE_Logout4",
+        "peekOfCode": "homepg = driver.find_element(By.XPATH,\"//img[@alt='Website for automation practice']\").is_displayed()\nif(homepg):\n    print(\"Displayed\")\nelse:\n    print(\"Not displayed\")\nsignupbtn = driver.find_element(By.XPATH,\"//a[normalize-space()='Signup / Login']\").click()\nemail = wait.until(EC.presence_of_element_located((By.XPATH,\"//input[@data-qa='login-email']\")))\nemail.send_keys(\"muhi2701@gmail.com\")\npassword = wait.until(EC.presence_of_element_located((By.XPATH,\"//input[@placeholder='Password']\")))\npassword.send_keys(\"1234567890\")",
+        "detail": "AE_Logout4",
+        "documentation": {}
+    },
+    {
+        "label": "signupbtn",
+        "kind": 5,
+        "importPath": "AE_Logout4",
+        "description": "AE_Logout4",
+        "peekOfCode": "signupbtn = driver.find_element(By.XPATH,\"//a[normalize-space()='Signup / Login']\").click()\nemail = wait.until(EC.presence_of_element_located((By.XPATH,\"//input[@data-qa='login-email']\")))\nemail.send_keys(\"muhi2701@gmail.com\")\npassword = wait.until(EC.presence_of_element_located((By.XPATH,\"//input[@placeholder='Password']\")))\npassword.send_keys(\"1234567890\")\nclicksign = driver.find_element(By.XPATH,\"//button[normalize-space()='Login']\").click()\nuserName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text\nprint(userName)\ncheckuser = userName\nif \"Logged in as muhi\" in checkuser:",
+        "detail": "AE_Logout4",
+        "documentation": {}
+    },
+    {
+        "label": "email",
+        "kind": 5,
+        "importPath": "AE_Logout4",
+        "description": "AE_Logout4",
+        "peekOfCode": "email = wait.until(EC.presence_of_element_located((By.XPATH,\"//input[@data-qa='login-email']\")))\nemail.send_keys(\"muhi2701@gmail.com\")\npassword = wait.until(EC.presence_of_element_located((By.XPATH,\"//input[@placeholder='Password']\")))\npassword.send_keys(\"1234567890\")\nclicksign = driver.find_element(By.XPATH,\"//button[normalize-space()='Login']\").click()\nuserName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text\nprint(userName)\ncheckuser = userName\nif \"Logged in as muhi\" in checkuser:\n    print(\"The Logged username is show\")",
+        "detail": "AE_Logout4",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "AE_Logout4",
+        "description": "AE_Logout4",
+        "peekOfCode": "password = wait.until(EC.presence_of_element_located((By.XPATH,\"//input[@placeholder='Password']\")))\npassword.send_keys(\"1234567890\")\nclicksign = driver.find_element(By.XPATH,\"//button[normalize-space()='Login']\").click()\nuserName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text\nprint(userName)\ncheckuser = userName\nif \"Logged in as muhi\" in checkuser:\n    print(\"The Logged username is show\")\nelse:\n    print(\"The logged username is not show\")",
+        "detail": "AE_Logout4",
+        "documentation": {}
+    },
+    {
+        "label": "clicksign",
+        "kind": 5,
+        "importPath": "AE_Logout4",
+        "description": "AE_Logout4",
+        "peekOfCode": "clicksign = driver.find_element(By.XPATH,\"//button[normalize-space()='Login']\").click()\nuserName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text\nprint(userName)\ncheckuser = userName\nif \"Logged in as muhi\" in checkuser:\n    print(\"The Logged username is show\")\nelse:\n    print(\"The logged username is not show\")\nlogoutbtn= driver.find_element(By.XPATH,\"//a[normalize-space()='Logout']\").click()\nexpurl = \"https://automationexercise.com/login\"",
+        "detail": "AE_Logout4",
+        "documentation": {}
+    },
+    {
+        "label": "userName",
+        "kind": 5,
+        "importPath": "AE_Logout4",
+        "description": "AE_Logout4",
+        "peekOfCode": "userName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text\nprint(userName)\ncheckuser = userName\nif \"Logged in as muhi\" in checkuser:\n    print(\"The Logged username is show\")\nelse:\n    print(\"The logged username is not show\")\nlogoutbtn= driver.find_element(By.XPATH,\"//a[normalize-space()='Logout']\").click()\nexpurl = \"https://automationexercise.com/login\"\ncurrurl = driver.current_url",
+        "detail": "AE_Logout4",
+        "documentation": {}
+    },
+    {
+        "label": "checkuser",
+        "kind": 5,
+        "importPath": "AE_Logout4",
+        "description": "AE_Logout4",
+        "peekOfCode": "checkuser = userName\nif \"Logged in as muhi\" in checkuser:\n    print(\"The Logged username is show\")\nelse:\n    print(\"The logged username is not show\")\nlogoutbtn= driver.find_element(By.XPATH,\"//a[normalize-space()='Logout']\").click()\nexpurl = \"https://automationexercise.com/login\"\ncurrurl = driver.current_url\nassert expurl == currurl,\"Not Redirected to login page\"\ndriver.close()",
+        "detail": "AE_Logout4",
+        "documentation": {}
+    },
+    {
+        "label": "expurl",
+        "kind": 5,
+        "importPath": "AE_Logout4",
+        "description": "AE_Logout4",
+        "peekOfCode": "expurl = \"https://automationexercise.com/login\"\ncurrurl = driver.current_url\nassert expurl == currurl,\"Not Redirected to login page\"\ndriver.close()",
+        "detail": "AE_Logout4",
+        "documentation": {}
+    },
+    {
+        "label": "currurl",
+        "kind": 5,
+        "importPath": "AE_Logout4",
+        "description": "AE_Logout4",
+        "peekOfCode": "currurl = driver.current_url\nassert expurl == currurl,\"Not Redirected to login page\"\ndriver.close()",
+        "detail": "AE_Logout4",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "AE_Testcase7",
+        "description": "AE_Testcase7",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.get(\"http://automationexercise.com\")\nwait = WebDriverWait(driver, 10)\ntestcase = wait.until(EC.element_to_be_clickable((By.XPATH, \"//a[contains(text(),'Test Cases')]\")))\ntestcase.click()\nvisible = driver.find_element(By.XPATH, \"//h2[@class='title text-center']\")\nif visible.is_displayed():\n    print(\"Testcase page displayed\")\nelse:",
+        "detail": "AE_Testcase7",
+        "documentation": {}
+    },
+    {
+        "label": "wait",
+        "kind": 5,
+        "importPath": "AE_Testcase7",
+        "description": "AE_Testcase7",
+        "peekOfCode": "wait = WebDriverWait(driver, 10)\ntestcase = wait.until(EC.element_to_be_clickable((By.XPATH, \"//a[contains(text(),'Test Cases')]\")))\ntestcase.click()\nvisible = driver.find_element(By.XPATH, \"//h2[@class='title text-center']\")\nif visible.is_displayed():\n    print(\"Testcase page displayed\")\nelse:\n    print(\"Not displayed\")",
+        "detail": "AE_Testcase7",
+        "documentation": {}
+    },
+    {
+        "label": "testcase",
+        "kind": 5,
+        "importPath": "AE_Testcase7",
+        "description": "AE_Testcase7",
+        "peekOfCode": "testcase = wait.until(EC.element_to_be_clickable((By.XPATH, \"//a[contains(text(),'Test Cases')]\")))\ntestcase.click()\nvisible = driver.find_element(By.XPATH, \"//h2[@class='title text-center']\")\nif visible.is_displayed():\n    print(\"Testcase page displayed\")\nelse:\n    print(\"Not displayed\")",
+        "detail": "AE_Testcase7",
+        "documentation": {}
+    },
+    {
+        "label": "visible",
+        "kind": 5,
+        "importPath": "AE_Testcase7",
+        "description": "AE_Testcase7",
+        "peekOfCode": "visible = driver.find_element(By.XPATH, \"//h2[@class='title text-center']\")\nif visible.is_displayed():\n    print(\"Testcase page displayed\")\nelse:\n    print(\"Not displayed\")",
+        "detail": "AE_Testcase7",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.get(\"http://automationexercise.com\")\nsignup = driver.find_element(By.XPATH,\"//a[normalize-space()='Signup / Login']\")\nsignup.click()\nname = driver.find_element(By.XPATH,\"//input[@placeholder='Name']\").send_keys(\"demomuhi9\")\nemail = driver.find_element(By.XPATH,\"//input[@data-qa='signup-email']\").send_keys(\"demomuhi9@gmail.com\")\nsignupbtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Signup']\").click()\ntitle = driver.find_element(By.ID,\"uniform-id_gender1\").click()\npassword = driver.find_element(By.XPATH,\"//input[@id='password']\").send_keys(\"Muhindhar12345\")",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "signup",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "signup = driver.find_element(By.XPATH,\"//a[normalize-space()='Signup / Login']\")\nsignup.click()\nname = driver.find_element(By.XPATH,\"//input[@placeholder='Name']\").send_keys(\"demomuhi9\")\nemail = driver.find_element(By.XPATH,\"//input[@data-qa='signup-email']\").send_keys(\"demomuhi9@gmail.com\")\nsignupbtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Signup']\").click()\ntitle = driver.find_element(By.ID,\"uniform-id_gender1\").click()\npassword = driver.find_element(By.XPATH,\"//input[@id='password']\").send_keys(\"Muhindhar12345\")\nfname = driver.find_element(By.XPATH,\"//input[@id='first_name']\").send_keys(\"Muhindhar\")\nlname = driver.find_element(By.XPATH,\"//input[@id='last_name']\").send_keys(\"SV\")\naddress = driver.find_element(By.XPATH,\"//input[@id='address1']\").send_keys(\"gugai\")",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "name = driver.find_element(By.XPATH,\"//input[@placeholder='Name']\").send_keys(\"demomuhi9\")\nemail = driver.find_element(By.XPATH,\"//input[@data-qa='signup-email']\").send_keys(\"demomuhi9@gmail.com\")\nsignupbtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Signup']\").click()\ntitle = driver.find_element(By.ID,\"uniform-id_gender1\").click()\npassword = driver.find_element(By.XPATH,\"//input[@id='password']\").send_keys(\"Muhindhar12345\")\nfname = driver.find_element(By.XPATH,\"//input[@id='first_name']\").send_keys(\"Muhindhar\")\nlname = driver.find_element(By.XPATH,\"//input[@id='last_name']\").send_keys(\"SV\")\naddress = driver.find_element(By.XPATH,\"//input[@id='address1']\").send_keys(\"gugai\")\nstate = driver.find_element(By.XPATH,\"//input[@id='state']\").send_keys(\"Tamilnadu\")\ncity = driver.find_element(By.XPATH,\"//input[@id='city']\").send_keys(\"salem\")",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "email",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "email = driver.find_element(By.XPATH,\"//input[@data-qa='signup-email']\").send_keys(\"demomuhi9@gmail.com\")\nsignupbtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Signup']\").click()\ntitle = driver.find_element(By.ID,\"uniform-id_gender1\").click()\npassword = driver.find_element(By.XPATH,\"//input[@id='password']\").send_keys(\"Muhindhar12345\")\nfname = driver.find_element(By.XPATH,\"//input[@id='first_name']\").send_keys(\"Muhindhar\")\nlname = driver.find_element(By.XPATH,\"//input[@id='last_name']\").send_keys(\"SV\")\naddress = driver.find_element(By.XPATH,\"//input[@id='address1']\").send_keys(\"gugai\")\nstate = driver.find_element(By.XPATH,\"//input[@id='state']\").send_keys(\"Tamilnadu\")\ncity = driver.find_element(By.XPATH,\"//input[@id='city']\").send_keys(\"salem\")\nzipcode = driver.find_element(By.XPATH,\"//input[@id='zipcode']\").send_keys(\"656776\")",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "signupbtn",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "signupbtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Signup']\").click()\ntitle = driver.find_element(By.ID,\"uniform-id_gender1\").click()\npassword = driver.find_element(By.XPATH,\"//input[@id='password']\").send_keys(\"Muhindhar12345\")\nfname = driver.find_element(By.XPATH,\"//input[@id='first_name']\").send_keys(\"Muhindhar\")\nlname = driver.find_element(By.XPATH,\"//input[@id='last_name']\").send_keys(\"SV\")\naddress = driver.find_element(By.XPATH,\"//input[@id='address1']\").send_keys(\"gugai\")\nstate = driver.find_element(By.XPATH,\"//input[@id='state']\").send_keys(\"Tamilnadu\")\ncity = driver.find_element(By.XPATH,\"//input[@id='city']\").send_keys(\"salem\")\nzipcode = driver.find_element(By.XPATH,\"//input[@id='zipcode']\").send_keys(\"656776\")\nmob = driver.find_element(By.XPATH,\"//input[@id='mobile_number']\").send_keys(\"9087654345\")",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "title",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "title = driver.find_element(By.ID,\"uniform-id_gender1\").click()\npassword = driver.find_element(By.XPATH,\"//input[@id='password']\").send_keys(\"Muhindhar12345\")\nfname = driver.find_element(By.XPATH,\"//input[@id='first_name']\").send_keys(\"Muhindhar\")\nlname = driver.find_element(By.XPATH,\"//input[@id='last_name']\").send_keys(\"SV\")\naddress = driver.find_element(By.XPATH,\"//input[@id='address1']\").send_keys(\"gugai\")\nstate = driver.find_element(By.XPATH,\"//input[@id='state']\").send_keys(\"Tamilnadu\")\ncity = driver.find_element(By.XPATH,\"//input[@id='city']\").send_keys(\"salem\")\nzipcode = driver.find_element(By.XPATH,\"//input[@id='zipcode']\").send_keys(\"656776\")\nmob = driver.find_element(By.XPATH,\"//input[@id='mobile_number']\").send_keys(\"9087654345\")\ncreatebtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Create Account']\")",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "password = driver.find_element(By.XPATH,\"//input[@id='password']\").send_keys(\"Muhindhar12345\")\nfname = driver.find_element(By.XPATH,\"//input[@id='first_name']\").send_keys(\"Muhindhar\")\nlname = driver.find_element(By.XPATH,\"//input[@id='last_name']\").send_keys(\"SV\")\naddress = driver.find_element(By.XPATH,\"//input[@id='address1']\").send_keys(\"gugai\")\nstate = driver.find_element(By.XPATH,\"//input[@id='state']\").send_keys(\"Tamilnadu\")\ncity = driver.find_element(By.XPATH,\"//input[@id='city']\").send_keys(\"salem\")\nzipcode = driver.find_element(By.XPATH,\"//input[@id='zipcode']\").send_keys(\"656776\")\nmob = driver.find_element(By.XPATH,\"//input[@id='mobile_number']\").send_keys(\"9087654345\")\ncreatebtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Create Account']\")\ncreatebtn.click()",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "fname",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "fname = driver.find_element(By.XPATH,\"//input[@id='first_name']\").send_keys(\"Muhindhar\")\nlname = driver.find_element(By.XPATH,\"//input[@id='last_name']\").send_keys(\"SV\")\naddress = driver.find_element(By.XPATH,\"//input[@id='address1']\").send_keys(\"gugai\")\nstate = driver.find_element(By.XPATH,\"//input[@id='state']\").send_keys(\"Tamilnadu\")\ncity = driver.find_element(By.XPATH,\"//input[@id='city']\").send_keys(\"salem\")\nzipcode = driver.find_element(By.XPATH,\"//input[@id='zipcode']\").send_keys(\"656776\")\nmob = driver.find_element(By.XPATH,\"//input[@id='mobile_number']\").send_keys(\"9087654345\")\ncreatebtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Create Account']\")\ncreatebtn.click()\nacccrea = driver.find_element(By.XPATH,\"//b[normalize-space()='Account Created!']\").text",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "lname",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "lname = driver.find_element(By.XPATH,\"//input[@id='last_name']\").send_keys(\"SV\")\naddress = driver.find_element(By.XPATH,\"//input[@id='address1']\").send_keys(\"gugai\")\nstate = driver.find_element(By.XPATH,\"//input[@id='state']\").send_keys(\"Tamilnadu\")\ncity = driver.find_element(By.XPATH,\"//input[@id='city']\").send_keys(\"salem\")\nzipcode = driver.find_element(By.XPATH,\"//input[@id='zipcode']\").send_keys(\"656776\")\nmob = driver.find_element(By.XPATH,\"//input[@id='mobile_number']\").send_keys(\"9087654345\")\ncreatebtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Create Account']\")\ncreatebtn.click()\nacccrea = driver.find_element(By.XPATH,\"//b[normalize-space()='Account Created!']\").text\nprint(acccrea)",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "address",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "address = driver.find_element(By.XPATH,\"//input[@id='address1']\").send_keys(\"gugai\")\nstate = driver.find_element(By.XPATH,\"//input[@id='state']\").send_keys(\"Tamilnadu\")\ncity = driver.find_element(By.XPATH,\"//input[@id='city']\").send_keys(\"salem\")\nzipcode = driver.find_element(By.XPATH,\"//input[@id='zipcode']\").send_keys(\"656776\")\nmob = driver.find_element(By.XPATH,\"//input[@id='mobile_number']\").send_keys(\"9087654345\")\ncreatebtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Create Account']\")\ncreatebtn.click()\nacccrea = driver.find_element(By.XPATH,\"//b[normalize-space()='Account Created!']\").text\nprint(acccrea)\ncontbtn = driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\")",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "state = driver.find_element(By.XPATH,\"//input[@id='state']\").send_keys(\"Tamilnadu\")\ncity = driver.find_element(By.XPATH,\"//input[@id='city']\").send_keys(\"salem\")\nzipcode = driver.find_element(By.XPATH,\"//input[@id='zipcode']\").send_keys(\"656776\")\nmob = driver.find_element(By.XPATH,\"//input[@id='mobile_number']\").send_keys(\"9087654345\")\ncreatebtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Create Account']\")\ncreatebtn.click()\nacccrea = driver.find_element(By.XPATH,\"//b[normalize-space()='Account Created!']\").text\nprint(acccrea)\ncontbtn = driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\")\ncontbtn.click()",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "city",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "city = driver.find_element(By.XPATH,\"//input[@id='city']\").send_keys(\"salem\")\nzipcode = driver.find_element(By.XPATH,\"//input[@id='zipcode']\").send_keys(\"656776\")\nmob = driver.find_element(By.XPATH,\"//input[@id='mobile_number']\").send_keys(\"9087654345\")\ncreatebtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Create Account']\")\ncreatebtn.click()\nacccrea = driver.find_element(By.XPATH,\"//b[normalize-space()='Account Created!']\").text\nprint(acccrea)\ncontbtn = driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\")\ncontbtn.click()\nuserName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "zipcode",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "zipcode = driver.find_element(By.XPATH,\"//input[@id='zipcode']\").send_keys(\"656776\")\nmob = driver.find_element(By.XPATH,\"//input[@id='mobile_number']\").send_keys(\"9087654345\")\ncreatebtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Create Account']\")\ncreatebtn.click()\nacccrea = driver.find_element(By.XPATH,\"//b[normalize-space()='Account Created!']\").text\nprint(acccrea)\ncontbtn = driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\")\ncontbtn.click()\nuserName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text\nprint(userName)",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "mob",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "mob = driver.find_element(By.XPATH,\"//input[@id='mobile_number']\").send_keys(\"9087654345\")\ncreatebtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Create Account']\")\ncreatebtn.click()\nacccrea = driver.find_element(By.XPATH,\"//b[normalize-space()='Account Created!']\").text\nprint(acccrea)\ncontbtn = driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\")\ncontbtn.click()\nuserName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text\nprint(userName)\ncheckuser = userName",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "createbtn",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "createbtn = driver.find_element(By.XPATH,\"//button[normalize-space()='Create Account']\")\ncreatebtn.click()\nacccrea = driver.find_element(By.XPATH,\"//b[normalize-space()='Account Created!']\").text\nprint(acccrea)\ncontbtn = driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\")\ncontbtn.click()\nuserName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text\nprint(userName)\ncheckuser = userName\nif \"Logged in as demomuhi9\" in checkuser:",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "acccrea",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "acccrea = driver.find_element(By.XPATH,\"//b[normalize-space()='Account Created!']\").text\nprint(acccrea)\ncontbtn = driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\")\ncontbtn.click()\nuserName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text\nprint(userName)\ncheckuser = userName\nif \"Logged in as demomuhi9\" in checkuser:\n    print(\"The Logged username is show\")\nelse:",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "contbtn",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "contbtn = driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\")\ncontbtn.click()\nuserName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text\nprint(userName)\ncheckuser = userName\nif \"Logged in as demomuhi9\" in checkuser:\n    print(\"The Logged username is show\")\nelse:\n    print(\"The logged username is not show\")\ndelacc = driver.find_element(By.XPATH,\"//a[normalize-space()='Delete Account']\")",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "userName",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "userName = driver.find_element(By.XPATH, \"//ul[@class = 'nav navbar-nav']/descendant::a[text() = ' Logged in as ']\").text\nprint(userName)\ncheckuser = userName\nif \"Logged in as demomuhi9\" in checkuser:\n    print(\"The Logged username is show\")\nelse:\n    print(\"The logged username is not show\")\ndelacc = driver.find_element(By.XPATH,\"//a[normalize-space()='Delete Account']\")\nif(delacc.is_displayed):\n    print(\"Delete button displayed\")",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "checkuser",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "checkuser = userName\nif \"Logged in as demomuhi9\" in checkuser:\n    print(\"The Logged username is show\")\nelse:\n    print(\"The logged username is not show\")\ndelacc = driver.find_element(By.XPATH,\"//a[normalize-space()='Delete Account']\")\nif(delacc.is_displayed):\n    print(\"Delete button displayed\")\nelse:\n    print(\"Displayed\")",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "delacc",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "delacc = driver.find_element(By.XPATH,\"//a[normalize-space()='Delete Account']\")\nif(delacc.is_displayed):\n    print(\"Delete button displayed\")\nelse:\n    print(\"Displayed\")\ndelacc.click()\ndeldisp = driver.find_element(By.XPATH,\"//b[normalize-space()='Account Deleted!']\").text\nprint(deldisp)\ndelcont = driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\").click()",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "deldisp",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "deldisp = driver.find_element(By.XPATH,\"//b[normalize-space()='Account Deleted!']\").text\nprint(deldisp)\ndelcont = driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\").click()",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "delcont",
+        "kind": 5,
+        "importPath": "AutomationExercise",
+        "description": "AutomationExercise",
+        "peekOfCode": "delcont = driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\").click()",
+        "detail": "AutomationExercise",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "Demo",
+        "description": "Demo",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window\nURL=(\"https://www.google.co.in\")\ndriver.get(URL)\nprint(driver.title)\ntime.sleep(5)\ndriver.close()",
+        "detail": "Demo",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "Implicitwait",
+        "description": "Implicitwait",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.get(\"https://automationexercise.com\")\ndriver.find_element(By.XPATH, \"//a[normalize-space()='Signup / Login']\").click()\ndriver.find_element(By.XPATH, \"//input[@data-qa='login-email']\").send_keys(\"muhi2701@gmail.com\")\ndriver.find_element(By.XPATH, \"//input[@placeholder='Password']\").send_keys(\"1234567890\")\ndriver.find_element(By.XPATH, \"//button[normalize-space()='Login']\").click()",
+        "detail": "Implicitwait",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "WebElement",
+        "description": "WebElement",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.get(\"https://www.google.co.in\")\nprint(driver.title)\nsearch = driver.find_element(By.XPATH,\"//textarea[@id='APjFqb']\")\nsearch.send_keys(\"selenium\",Keys.ENTER)\ntime.sleep(4)\nprint(driver.title)",
+        "detail": "WebElement",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "kind": 5,
+        "importPath": "WebElement",
+        "description": "WebElement",
+        "peekOfCode": "search = driver.find_element(By.XPATH,\"//textarea[@id='APjFqb']\")\nsearch.send_keys(\"selenium\",Keys.ENTER)\ntime.sleep(4)\nprint(driver.title)",
+        "detail": "WebElement",
+        "documentation": {}
+    }
+]
