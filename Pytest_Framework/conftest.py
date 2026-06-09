@@ -20,5 +20,4 @@ def test_setup_teardown(request):
     request.cls.driver = driver
 
     yield
-
     driver.quit()

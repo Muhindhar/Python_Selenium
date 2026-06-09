@@ -12,6 +12,7 @@ def setup_teardowns(request):
         driver = webdriver.Edge()
     elif driver == "firefox":
         driver == webdriver.Firefox()
+        
     driver.maximize_window()
     driver.implicitly_wait(5)
     driver.get(get_config("basic info","url"))

@@ -5,9 +5,7 @@ from read_config import get_config
 driver = webdriver.Chrome()
 driver.maximize_window()
 driver.implicitly_wait(5)
-
 driver.get(get_config("basic info", "url"))
-
 
 def test_valid():
     driver.find_element(By.XPATH, "//input[@placeholder='Search']").send_keys(get_config("search term", "valid"))
