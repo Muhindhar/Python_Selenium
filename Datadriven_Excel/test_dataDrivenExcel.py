@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from Utilities import excelReader
 from Utilities.logCreator import log_creator
 
-@pytest.mark.parametrize("username,password,case",excelReader.get_data(r"ExcelFiles\loginData.xlsx", "login"),)
+@pytest.mark.parametrize("username,password,case",excelReader.get_data(r"D:\Python_Selenium\Datadriven_Excel\ExcelFiles\loginData.xlsx", "login"),)
 
 class Test_Login1:
     logcreator = log_creator()

@@ -321,6 +321,22 @@
         "documentation": {}
     },
     {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
         "label": "selenium.webdriver",
         "kind": 6,
         "isExtraImport": true,
@@ -610,6 +626,30 @@
         "documentation": {}
     },
     {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
         "label": "ActionChains",
         "importPath": "selenium.webdriver.common.action_chains",
         "description": "selenium.webdriver.common.action_chains",
@@ -663,6 +703,14 @@
         "description": "selenium.webdriver.support.wait",
         "isExtraImport": true,
         "detail": "selenium.webdriver.support.wait",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
         "documentation": {}
     },
     {
@@ -909,6 +957,14 @@
         "documentation": {}
     },
     {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
         "label": "Select",
         "importPath": "selenium.webdriver.support.ui",
         "description": "selenium.webdriver.support.ui",
@@ -926,6 +982,22 @@
     },
     {
         "label": "excelReader",
+        "importPath": "Utilities",
+        "description": "Utilities",
+        "isExtraImport": true,
+        "detail": "Utilities",
+        "documentation": {}
+    },
+    {
+        "label": "csvReader",
+        "importPath": "Utilities",
+        "description": "Utilities",
+        "isExtraImport": true,
+        "detail": "Utilities",
+        "documentation": {}
+    },
+    {
+        "label": "excelutilites",
         "importPath": "Utilities",
         "description": "Utilities",
         "isExtraImport": true,
@@ -965,11 +1037,44 @@
         "documentation": {}
     },
     {
+        "label": "get_config",
+        "importPath": "read_config",
+        "description": "read_config",
+        "isExtraImport": true,
+        "detail": "read_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_config",
+        "importPath": "read_config",
+        "description": "read_config",
+        "isExtraImport": true,
+        "detail": "read_config",
+        "documentation": {}
+    },
+    {
         "label": "ConfigParser",
         "importPath": "configparser",
         "description": "configparser",
         "isExtraImport": true,
         "detail": "configparser",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigParser",
+        "importPath": "configparser",
+        "description": "configparser",
+        "isExtraImport": true,
+        "detail": "configparser",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
         "documentation": {}
     },
     {
@@ -1409,6 +1514,69 @@
         "description": "Hovering.Hovertextbox",
         "peekOfCode": "tooltip = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, \"//div[@class='tooltip-inner']\")))\nprint(tooltip.text)",
         "detail": "Hovering.Hovertextbox",
+        "documentation": {}
+    },
+    {
+        "label": "get_data",
+        "kind": 2,
+        "importPath": "Pytest_Framework.TutorialsNinja.Utilities.csvReader",
+        "description": "Pytest_Framework.TutorialsNinja.Utilities.csvReader",
+        "peekOfCode": "def get_data(path):\n    data=[]\n    with open(path,\"r\") as file:\n        reader=csv.reader(file)\n        next(reader) \n        for row in reader:\n            data.append(row)\n    return data",
+        "detail": "Pytest_Framework.TutorialsNinja.Utilities.csvReader",
+        "documentation": {}
+    },
+    {
+        "label": "get_data",
+        "kind": 2,
+        "importPath": "Pytest_Framework.TutorialsNinja.Utilities.excelutilites",
+        "description": "Pytest_Framework.TutorialsNinja.Utilities.excelutilites",
+        "peekOfCode": "def get_data(path,sheetname):\n    final_list=[]\n    workbook = openpyxl.load_workbook(path)\n    sheet = workbook[sheetname]\n    tot_row = sheet.max_row\n    tot_col = sheet.max_column\n    for i in range(2,tot_row+1):\n        row_list=[]\n        for c in range(1,tot_col+1):\n            row_list.append(sheet.cell(i,c).value)",
+        "detail": "Pytest_Framework.TutorialsNinja.Utilities.excelutilites",
+        "documentation": {}
+    },
+    {
+        "label": "setup_teardown",
+        "kind": 2,
+        "importPath": "Pytest_Framework.TutorialsNinja.conftest",
+        "description": "Pytest_Framework.TutorialsNinja.conftest",
+        "peekOfCode": "def setup_teardown(request):\n    global driver\n    driver = get_config(\"basic info\",\"browser\")\n    if driver == \"chrome\":\n        driver = webdriver.Chrome()\n    elif driver == \"edge\":\n        driver = webdriver.Edge()\n    elif driver == \"firefox\":\n        driver = webdriver.Firefox()\n    driver.maximize_window()",
+        "detail": "Pytest_Framework.TutorialsNinja.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "get_config",
+        "kind": 2,
+        "importPath": "Pytest_Framework.TutorialsNinja.read_config",
+        "description": "Pytest_Framework.TutorialsNinja.read_config",
+        "peekOfCode": "def get_config(category,key):\n    config=ConfigParser()\n    config.read(\"./config.ini\")\n    return config.get(category,key)",
+        "detail": "Pytest_Framework.TutorialsNinja.read_config",
+        "documentation": {}
+    },
+    {
+        "label": "TestLogin",
+        "kind": 6,
+        "importPath": "Pytest_Framework.TutorialsNinja.test_login_tutninja",
+        "description": "Pytest_Framework.TutorialsNinja.test_login_tutninja",
+        "peekOfCode": "class TestLogin():\n    def test_valid_login(self):\n        self.driver.find_element(By.XPATH,\"//span[normalize-space()='My Account']\").click()\n        self.driver.find_element(By.XPATH,\"//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']\").click()\n        self.driver.find_element(By.XPATH,\"//input[@id='input-email']\").send_keys(get_config(\"valid login cred\",\"mail\"))\n        self.driver.find_element(By.XPATH,\"//input[@id='input-password']\").send_keys(get_config(\"valid login cred\",\"pass\"))\n        self.driver.find_element(By.XPATH,\"//input[@value='Login']\").click()\n        exp = \"Qafox.com\"\n        curr = self.driver.find_element(By.XPATH,\"//a[text()='Qafox.com']\").text\n        assert exp==curr,\"LoggedIn\"",
+        "detail": "Pytest_Framework.TutorialsNinja.test_login_tutninja",
+        "documentation": {}
+    },
+    {
+        "label": "Test_search",
+        "kind": 6,
+        "importPath": "Pytest_Framework.TutorialsNinja.test_order",
+        "description": "Pytest_Framework.TutorialsNinja.test_order",
+        "peekOfCode": "class Test_search:\n    def test_search(self, product):\n        self.driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(product)\n        self.driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()",
+        "detail": "Pytest_Framework.TutorialsNinja.test_order",
+        "documentation": {}
+    },
+    {
+        "label": "Test_order",
+        "kind": 6,
+        "importPath": "Pytest_Framework.TutorialsNinja.test_orderProd",
+        "description": "Pytest_Framework.TutorialsNinja.test_orderProd",
+        "peekOfCode": "class Test_order:\n    def test_product(self, order):\n        self.driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(order[0])\n        self.driver.find_element(By.XPATH,\"//i[@class='fa fa-search']\").click()\n        self.driver.find_element(By.XPATH,\"//div[@class='product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-12']//button[1]\").click()\n        self.driver.find_element(By.XPATH,\"//button[@id='button-cart']\").click()\n        self.driver.find_element(By.XPATH,\"//span[normalize-space()='Shopping Cart']\").click()\n        self.driver.find_element(By.XPATH,\"//a[@class='btn btn-primary']\").click()\n        self.driver.find_element(By.XPATH,\"//input[@id='button-payment-address']\").click()\n        self.driver.find_element(By.XPATH,\"//input[@id='button-shipping-address']\").click()",
+        "detail": "Pytest_Framework.TutorialsNinja.test_orderProd",
         "documentation": {}
     },
     {
