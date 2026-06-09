@@ -1317,7 +1317,7 @@
         "kind": 6,
         "importPath": "Data_Driven_Test.Test_Tutninja",
         "description": "Data_Driven_Test.Test_Tutninja",
-        "peekOfCode": "class Test_Login():\n    def test_login(self):\n    #driver = self.driver\n        self.driver.find_element(By.XPATH,\"//a[@id='login2']\").click()\n        self.driver.find_element(By.XPATH,\"//input[@id='loginusername']\").send_keys(get_config(\"login credentials\",\"uname\"))\n        self.driver.find_element(By.XPATH,\"//input[@id='loginpassword']\").send_keys(get_config(\"login credentials\",\"pass\"))\n        self.driver.find_element(By.XPATH,\"//button[text()='Log in']\").click()\n        exp=\"Welcome admin\"\n        actual = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located((By.ID, \"nameofuser\"))).text\n        assert actual == exp",
+        "peekOfCode": "class Test_Login():\n    def test_login(self):\n    #driver = self.driver\n        self.driver.find_element(By.XPATH,\"//a[@id='login2']\").click()\n        self.driver.find_element(By.XPATH,\"//input[@id='loginusername']\").send_keys(get_config(\"login credentials\",\"uname\"))\n        self.driver.find_element(By.XPATH,\"//input[@id='loginpassword']\").send_keys(get_config(\"login credentials\",\"pass\"))\n        self.driver.find_element(By.XPATH,\"//button[text()='Log in']\").click()\n        exp=\"Welcome admin\"\n        actual = WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.ID, \"nameofuser\"))).text\n        assert actual == exp",
         "detail": "Data_Driven_Test.Test_Tutninja",
         "documentation": {}
     },
