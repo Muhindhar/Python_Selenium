@@ -2,7 +2,7 @@ import pytest
 from selenium.webdriver.common.by import By
 from Utilities import csvReader
 
-@pytest.mark.parametrize("product", csvReader.get_data(r"Utilities\products.csv"))
+@pytest.mark.parametrize("product", csvReader.get_data(r"D:\Python_Selenium\Pytest_Framework\TutorialsNinja\Utilities\products.csv"))
 @pytest.mark.usefixtures("setup_teardown")
 
 class Test_search:
