@@ -27,6 +27,6 @@ class Test_Login():
         self.driver.find_element(By.XPATH,"//input[@id='loginpassword']").send_keys(get_config("login credentials","pass"))
         self.driver.find_element(By.XPATH,"//button[text()='Log in']").click()
         exp="Welcome admin"
-        actual = WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.ID, "nameofuser"))).text
+        actual = WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.XPATH, "//a[@id='nameofuser']"))).text
         assert actual == exp
         self.driver.quit()

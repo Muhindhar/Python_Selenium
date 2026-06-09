@@ -24,7 +24,7 @@ class Test_Login1:
         self.logcreator.info("password typed")
         driver.find_element(By.XPATH, "//button[text()='Log in']").click()
         if case.lower() == "pass":
-            actual = (WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "nameofuser"))).text)
+            actual = (WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, "//a[@id='nameofuser']"))).text)
             exp = f"Welcome {username}"
             assert actual == exp
             self.logcreator.info("pass case passed")
