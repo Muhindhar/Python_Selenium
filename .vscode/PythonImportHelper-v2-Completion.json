@@ -1094,6 +1094,23 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "wait",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "Options",
         "importPath": "selenium.webdriver.chrome.options",
         "description": "selenium.webdriver.chrome.options",
@@ -1148,14 +1165,6 @@
         "importPath": "pytest_check",
         "description": "pytest_check",
         "detail": "pytest_check",
-        "documentation": {}
-    },
-    {
-        "label": "wait",
-        "importPath": "os",
-        "description": "os",
-        "isExtraImport": true,
-        "detail": "os",
         "documentation": {}
     },
     {
@@ -1564,7 +1573,16 @@
         "kind": 2,
         "importPath": "Pytest_Framework.TutorialsNinja.read_config",
         "description": "Pytest_Framework.TutorialsNinja.read_config",
-        "peekOfCode": "def get_config(category,key):\n    config=ConfigParser()\n    config.read(\"./config.ini\")\n    return config.get(category,key)",
+        "peekOfCode": "def get_config(category,key):\n    config=ConfigParser()\n    config.read(\"./config.ini\")\n    return config.get(category,key)'''\nfrom configparser import ConfigParser\nimport os\ndef get_config(category, key):\n    config = ConfigParser()\n    config_path = os.path.join(\n        os.path.dirname(__file__),",
+        "detail": "Pytest_Framework.TutorialsNinja.read_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_config",
+        "kind": 2,
+        "importPath": "Pytest_Framework.TutorialsNinja.read_config",
+        "description": "Pytest_Framework.TutorialsNinja.read_config",
+        "peekOfCode": "def get_config(category, key):\n    config = ConfigParser()\n    config_path = os.path.join(\n        os.path.dirname(__file__),\n        \"config.ini\"\n    )\n    config.read(config_path)\n    return config.get(category, key)",
         "detail": "Pytest_Framework.TutorialsNinja.read_config",
         "documentation": {}
     },
@@ -1591,7 +1609,7 @@
         "kind": 6,
         "importPath": "Pytest_Framework.TutorialsNinja.test_orderProd",
         "description": "Pytest_Framework.TutorialsNinja.test_orderProd",
-        "peekOfCode": "class Test_order:\n    def test_product(self, order):\n        wait = WebDriverWait(self.driver, 20)\n        self.driver.find_element(By.XPATH,\"//span[normalize-space()='My Account']\").click()\n        self.driver.find_element(By.LINK_TEXT,\"Login\").click()\n        self.driver.find_element(By.ID,\"input-email\").send_keys(get_config(\"valid login cred\", \"mail\"))\n        self.driver.find_element(By.ID,\"input-password\").send_keys(get_config(\"valid login cred\", \"pass\"))\n        self.driver.find_element(By.XPATH,\"//input[@value='Login']\").click()\n        wait.until(EC.visibility_of_element_located((By.XPATH, \"//h2[text()='My Account']\")))\n        self.driver.get(get_config(\"basic info\", \"url\"))",
+        "peekOfCode": "class Test_order:\n    def test_product(self, order):\n        wait = WebDriverWait(self.driver, 20)\n        self.driver.find_element(By.XPATH,\"//span[normalize-space()='My Account']\").click()\n        self.driver.find_element(By.LINK_TEXT,\"Login\").click()\n        self.driver.find_element(By.ID,\"input-ex`mail\").send_keys(get_config(\"valid login cred\", \"mail\"))\n        self.driver.find_element(By.ID,\"input-password\").send_keys(get_config(\"valid login cred\", \"pass\"))\n        self.driver.find_element(By.XPATH,\"//input[@value='Login']\").click()\n        wait.until(EC.visibility_of_element_located((By.XPATH, \"//h2[text()='My Account']\")))\n        self.driver.get(get_config(\"basic info\", \"url\"))",
         "detail": "Pytest_Framework.TutorialsNinja.test_orderProd",
         "documentation": {}
     },
@@ -1843,7 +1861,7 @@
         "kind": 2,
         "importPath": "Pytest_Framework.test_SoftAssertions",
         "description": "Pytest_Framework.test_SoftAssertions",
-        "peekOfCode": "def test_invalid():\n    driver.find_element(\n        By.XPATH,\n        \"//input[@placeholder='Search']\"\n    ).send_keys(\"honda\")\n    driver.find_element(\n        By.XPATH,\n        \"//button[@class='btn btn-default btn-lg']\"\n    ).click()\n    exp = \"There is no product\"",
+        "peekOfCode": "def test_invalid():\n    driver.get(\"https://tutorialsninja.com/demo/\")\n    driver.find_element(\n        By.XPATH,\n        \"//input[@placeholder='Search']\"\n    ).send_keys(\"honda\")\n    driver.find_element(\n        By.XPATH,\n        \"//button[@class='btn btn-default btn-lg']\"\n    ).click()",
         "detail": "Pytest_Framework.test_SoftAssertions",
         "documentation": {}
     },
@@ -1852,7 +1870,7 @@
         "kind": 5,
         "importPath": "Pytest_Framework.test_SoftAssertions",
         "description": "Pytest_Framework.test_SoftAssertions",
-        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.implicitly_wait(5)\ndriver.get(\"https://tutorialsninja.com/demo/\")\ndef test_invalid():\n    driver.find_element(\n        By.XPATH,\n        \"//input[@placeholder='Search']\"\n    ).send_keys(\"honda\")\n    driver.find_element(",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.implicitly_wait(5)\ndef test_invalid():\n    driver.get(\"https://tutorialsninja.com/demo/\")\n    driver.find_element(\n        By.XPATH,\n        \"//input[@placeholder='Search']\"\n    ).send_keys(\"honda\")\n    driver.find_element(",
         "detail": "Pytest_Framework.test_SoftAssertions",
         "documentation": {}
     },

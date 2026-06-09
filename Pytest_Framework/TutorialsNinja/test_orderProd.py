@@ -13,7 +13,7 @@ class Test_order:
         wait = WebDriverWait(self.driver, 20)
         self.driver.find_element(By.XPATH,"//span[normalize-space()='My Account']").click()
         self.driver.find_element(By.LINK_TEXT,"Login").click()
-        self.driver.find_element(By.ID,"input-email").send_keys(get_config("valid login cred", "mail"))
+        self.driver.find_element(By.ID,"input-ex`mail").send_keys(get_config("valid login cred", "mail"))
         self.driver.find_element(By.ID,"input-password").send_keys(get_config("valid login cred", "pass"))
         self.driver.find_element(By.XPATH,"//input[@value='Login']").click()
 
