@@ -1323,16 +1323,7 @@
         "kind": 2,
         "importPath": "Pytest_Framework.conftest",
         "description": "Pytest_Framework.conftest",
-        "peekOfCode": "def test_setup_teardown(request):\n    #global driver\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(5)\n    driver.get(\"https://tutorialsninja.com/demo/\")\n    request.cls.driver = driver\n    yield\n    driver.quit()\n    '''",
-        "detail": "Pytest_Framework.conftest",
-        "documentation": {}
-    },
-    {
-        "label": "test_setup_teardown",
-        "kind": 2,
-        "importPath": "Pytest_Framework.conftest",
-        "description": "Pytest_Framework.conftest",
-        "peekOfCode": "def test_setup_teardown(request):\n    browser = request.param\n    if browser == \"chrome\":\n        driver = webdriver.Chrome()\n    elif browser == \"firefox\":\n        driver = webdriver.Firefox()\n    elif browser == \"edge\":\n        driver = webdriver.Edge()\n    driver.maximize_window()\n    driver.implicitly_wait(5)",
+        "peekOfCode": "def test_setup_teardown(request):\n    browser = getattr(request, \"param\", \"chrome\")\n    if browser == \"chrome\":\n        driver = webdriver.Chrome()\n    elif browser == \"firefox\":\n        driver = webdriver.Firefox()\n    elif browser == \"edge\":\n        driver = webdriver.Edge()\n    driver.maximize_window()\n    driver.implicitly_wait(5)",
         "detail": "Pytest_Framework.conftest",
         "documentation": {}
     },
@@ -1575,7 +1566,7 @@
         "kind": 2,
         "importPath": "Pytest_Framework.test_SoftAssertions",
         "description": "Pytest_Framework.test_SoftAssertions",
-        "peekOfCode": "def test_invalid():\n    driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product\" \n    actual = driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text\n    #check.equal(actual, exp, \"Message validation failed\")\n    #print(\"Execution continues after failure\")\n    driver.quit()\n    check.not_equal(actual, exp, \"Message validation failed\")\n    print(\"Execution continues after failure\")",
+        "peekOfCode": "def test_invalid():\n    driver.find_element(\n        By.XPATH,\n        \"//input[@placeholder='Search']\"\n    ).send_keys(\"honda\")\n    driver.find_element(\n        By.XPATH,\n        \"//button[@class='btn btn-default btn-lg']\"\n    ).click()\n    exp = \"There is no product\"",
         "detail": "Pytest_Framework.test_SoftAssertions",
         "documentation": {}
     },
@@ -1584,7 +1575,7 @@
         "kind": 5,
         "importPath": "Pytest_Framework.test_SoftAssertions",
         "description": "Pytest_Framework.test_SoftAssertions",
-        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.implicitly_wait(5)\ndriver.get(\"https://tutorialsninja.com/demo/\")\ndef test_invalid():\n    driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product\" \n    actual = driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text\n    #check.equal(actual, exp, \"Message validation failed\")",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.implicitly_wait(5)\ndriver.get(\"https://tutorialsninja.com/demo/\")\ndef test_invalid():\n    driver.find_element(\n        By.XPATH,\n        \"//input[@placeholder='Search']\"\n    ).send_keys(\"honda\")\n    driver.find_element(",
         "detail": "Pytest_Framework.test_SoftAssertions",
         "documentation": {}
     },
