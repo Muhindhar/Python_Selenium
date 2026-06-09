@@ -11,7 +11,8 @@ from read_config import get_config
 class Test_order:
     def test_product(self, order):
         wait = WebDriverWait(self.driver, 20)
-        self.driver.find_element(By.XPATH,"//span[normalize-space()='My Account']").click()
+        my_account = wait.until(EC.presence_of_element_located((By.XPATH, "//span[normalize-space()='My Account']")))
+        self.driver.execute_script("arguments[0].click();",my_account)
         self.driver.find_element(By.LINK_TEXT,"Login").click()
         self.driver.find_element(By.ID,"input-ex`mail").send_keys(get_config("valid login cred", "mail"))
         self.driver.find_element(By.ID,"input-password").send_keys(get_config("valid login cred", "pass"))
