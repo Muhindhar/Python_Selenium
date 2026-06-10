@@ -337,6 +337,14 @@
         "documentation": {}
     },
     {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
         "label": "selenium.webdriver",
         "kind": 6,
         "isExtraImport": true,
@@ -351,6 +359,14 @@
         "description": "selenium.webdriver",
         "isExtraImport": true,
         "detail": "selenium.webdriver",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
         "documentation": {}
     },
     {
@@ -1317,6 +1333,14 @@
         "description": "operator",
         "isExtraImport": true,
         "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "locate_with",
+        "importPath": "selenium.webdriver.support.relative_locator",
+        "description": "selenium.webdriver.support.relative_locator",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.relative_locator",
         "documentation": {}
     },
     {
@@ -3234,6 +3258,24 @@
         "description": "Selenium_Practice.Implicitwait",
         "peekOfCode": "driver = webdriver.Chrome()\ndriver.get(\"https://automationexercise.com\")\ndriver.find_element(By.XPATH, \"//a[normalize-space()='Signup / Login']\").click()\ndriver.find_element(By.XPATH, \"//input[@data-qa='login-email']\").send_keys(\"muhi2701@gmail.com\")\ndriver.find_element(By.XPATH, \"//input[@placeholder='Password']\").send_keys(\"1234567890\")\ndriver.find_element(By.XPATH, \"//button[normalize-space()='Login']\").click()",
         "detail": "Selenium_Practice.Implicitwait",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "Selenium_Practice.locator",
+        "description": "Selenium_Practice.locator",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.get(\"https://tutorialsninja.com/demo/\")\ndriver.implicitly_wait(10)\nlogin = driver.find_element(locate_with(By.XPATH,\"//a[text()='Register']\")\n                            .below((By.XPATH,\"//a[normalize-space()='Login']\")))",
+        "detail": "Selenium_Practice.locator",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 5,
+        "importPath": "Selenium_Practice.locator",
+        "description": "Selenium_Practice.locator",
+        "peekOfCode": "login = driver.find_element(locate_with(By.XPATH,\"//a[text()='Register']\")\n                            .below((By.XPATH,\"//a[normalize-space()='Login']\")))",
+        "detail": "Selenium_Practice.locator",
         "documentation": {}
     },
     {
