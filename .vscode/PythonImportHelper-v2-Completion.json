@@ -1094,6 +1094,23 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "wait",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "Options",
         "importPath": "selenium.webdriver.chrome.options",
         "description": "selenium.webdriver.chrome.options",
@@ -1148,14 +1165,6 @@
         "importPath": "pytest_check",
         "description": "pytest_check",
         "detail": "pytest_check",
-        "documentation": {}
-    },
-    {
-        "label": "wait",
-        "importPath": "os",
-        "description": "os",
-        "isExtraImport": true,
-        "detail": "os",
         "documentation": {}
     },
     {
@@ -1564,7 +1573,16 @@
         "kind": 2,
         "importPath": "Pytest_Framework.TutorialsNinja.read_config",
         "description": "Pytest_Framework.TutorialsNinja.read_config",
-        "peekOfCode": "def get_config(category,key):\n    config=ConfigParser()\n    config.read(\"./config.ini\")\n    return config.get(category,key)",
+        "peekOfCode": "def get_config(category,key):\n    config=ConfigParser()\n    config.read(\"./config.ini\")\n    return config.get(category,key)\n'''\nfrom configparser import ConfigParser\nimport os\ndef get_config(category, key):\n    config = ConfigParser()\n    config_path = os.path.join(os.path.dirname(__file__),\"config.ini\")",
+        "detail": "Pytest_Framework.TutorialsNinja.read_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_config",
+        "kind": 2,
+        "importPath": "Pytest_Framework.TutorialsNinja.read_config",
+        "description": "Pytest_Framework.TutorialsNinja.read_config",
+        "peekOfCode": "def get_config(category, key):\n    config = ConfigParser()\n    config_path = os.path.join(os.path.dirname(__file__),\"config.ini\")\n    config.read(config_path)\n    return config.get(category, key)",
         "detail": "Pytest_Framework.TutorialsNinja.read_config",
         "documentation": {}
     },
