@@ -1111,6 +1111,14 @@
         "documentation": {}
     },
     {
+        "label": "zipcode",
+        "importPath": "Selenium_Practice.AutomationExercise",
+        "description": "Selenium_Practice.AutomationExercise",
+        "isExtraImport": true,
+        "detail": "Selenium_Practice.AutomationExercise",
+        "documentation": {}
+    },
+    {
         "label": "Options",
         "importPath": "selenium.webdriver.chrome.options",
         "description": "selenium.webdriver.chrome.options",
@@ -1573,7 +1581,7 @@
         "kind": 2,
         "importPath": "Pytest_Framework.TutorialsNinja.read_config",
         "description": "Pytest_Framework.TutorialsNinja.read_config",
-        "peekOfCode": "def get_config(category,key):\n    config=ConfigParser()\n    config.read(\"./config.ini\")\n    return config.get(category,key)'''\nfrom configparser import ConfigParser\nimport os\ndef get_config(category, key):\n    config = ConfigParser()\n    config_path = os.path.join(\n        os.path.dirname(__file__),",
+        "peekOfCode": "def get_config(category,key):\n    config=ConfigParser()\n    config.read(\"./config.ini\")\n    return config.get(category,key)'''\nfrom configparser import ConfigParser\nimport os\ndef get_config(category, key):\n    config = ConfigParser()\n    config_path = os.path.join(os.path.dirname(__file__),\"config.ini\")\n    config.read(config_path)",
         "detail": "Pytest_Framework.TutorialsNinja.read_config",
         "documentation": {}
     },
@@ -1582,7 +1590,7 @@
         "kind": 2,
         "importPath": "Pytest_Framework.TutorialsNinja.read_config",
         "description": "Pytest_Framework.TutorialsNinja.read_config",
-        "peekOfCode": "def get_config(category, key):\n    config = ConfigParser()\n    config_path = os.path.join(\n        os.path.dirname(__file__),\n        \"config.ini\"\n    )\n    config.read(config_path)\n    return config.get(category, key)",
+        "peekOfCode": "def get_config(category, key):\n    config = ConfigParser()\n    config_path = os.path.join(os.path.dirname(__file__),\"config.ini\")\n    config.read(config_path)\n    return config.get(category, key)",
         "detail": "Pytest_Framework.TutorialsNinja.read_config",
         "documentation": {}
     },
@@ -1609,7 +1617,7 @@
         "kind": 6,
         "importPath": "Pytest_Framework.TutorialsNinja.test_orderProd",
         "description": "Pytest_Framework.TutorialsNinja.test_orderProd",
-        "peekOfCode": "class Test_order:\n    def test_product(self, order):\n        wait = WebDriverWait(self.driver, 20)\n        my_account = wait.until(EC.presence_of_element_located((By.XPATH, \"//span[normalize-space()='My Account']\")))\n        self.driver.execute_script(\"arguments[0].click();\",my_account)\n        self.driver.find_element(By.LINK_TEXT,\"Login\").click()\n        self.driver.find_element(By.ID,\"input-ex`mail\").send_keys(get_config(\"valid login cred\", \"mail\"))\n        self.driver.find_element(By.ID,\"input-password\").send_keys(get_config(\"valid login cred\", \"pass\"))\n        self.driver.find_element(By.XPATH,\"//input[@value='Login']\").click()\n        wait.until(EC.visibility_of_element_located((By.XPATH, \"//h2[text()='My Account']\")))",
+        "peekOfCode": "class Test_order:\n    def test_product(self, order):\n        wait = WebDriverWait(self.driver, 20)\n        my_account = wait.until(EC.presence_of_element_located((By.XPATH, \"//span[normalize-space()='My Account']\")))\n        self.driver.execute_script(\"arguments[0].click();\",my_account)\n        self.driver.find_element(By.XPATH,\"//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']\").click()\n        self.driver.find_element(By.XPATH,\"//input[@id='input-email']\").send_keys(get_config(\"valid login cred\", \"mail\"))\n        self.driver.find_element(By.XPATH,\"//input[@id='input-password']\").send_keys(get_config(\"valid login cred\", \"pass\"))\n        self.driver.find_element(By.XPATH,\"//input[@value='Login']\").click()\n        wait.until(EC.visibility_of_element_located((By.XPATH, \"//h2[text()='My Account']\")))",
         "detail": "Pytest_Framework.TutorialsNinja.test_orderProd",
         "documentation": {}
     },
