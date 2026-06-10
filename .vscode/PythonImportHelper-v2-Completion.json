@@ -329,6 +329,14 @@
         "documentation": {}
     },
     {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
         "label": "selenium.webdriver",
         "kind": 6,
         "isExtraImport": true,
@@ -642,6 +650,30 @@
         "documentation": {}
     },
     {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
         "label": "ActionChains",
         "importPath": "selenium.webdriver.common.action_chains",
         "description": "selenium.webdriver.common.action_chains",
@@ -695,6 +727,14 @@
         "description": "selenium.webdriver.support.wait",
         "isExtraImport": true,
         "detail": "selenium.webdriver.support.wait",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
         "documentation": {}
     },
     {
@@ -973,6 +1013,14 @@
         "documentation": {}
     },
     {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
         "label": "Select",
         "importPath": "selenium.webdriver.support.ui",
         "description": "selenium.webdriver.support.ui",
@@ -1069,6 +1117,22 @@
         "documentation": {}
     },
     {
+        "label": "get_config",
+        "importPath": "read_config",
+        "description": "read_config",
+        "isExtraImport": true,
+        "detail": "read_config",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigParser",
+        "importPath": "configparser",
+        "description": "configparser",
+        "isExtraImport": true,
+        "detail": "configparser",
+        "documentation": {}
+    },
+    {
         "label": "ConfigParser",
         "importPath": "configparser",
         "description": "configparser",
@@ -1085,12 +1149,59 @@
         "documentation": {}
     },
     {
-        "label": "csv",
-        "kind": 6,
+        "label": "LoginPage",
+        "importPath": "pages.loginPage",
+        "description": "pages.loginPage",
         "isExtraImport": true,
-        "importPath": "csv",
-        "description": "csv",
-        "detail": "csv",
+        "detail": "pages.loginPage",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPage",
+        "importPath": "pages.orderPage",
+        "description": "pages.orderPage",
+        "isExtraImport": true,
+        "detail": "pages.orderPage",
+        "documentation": {}
+    },
+    {
+        "label": "Searchpage",
+        "importPath": "pages.searchpage",
+        "description": "pages.searchpage",
+        "isExtraImport": true,
+        "detail": "pages.searchpage",
+        "documentation": {}
+    },
+    {
+        "label": "LoginActions",
+        "importPath": "actions.loginAction",
+        "description": "actions.loginAction",
+        "isExtraImport": true,
+        "detail": "actions.loginAction",
+        "documentation": {}
+    },
+    {
+        "label": "excel_reader",
+        "importPath": "utilities",
+        "description": "utilities",
+        "isExtraImport": true,
+        "detail": "utilities",
+        "documentation": {}
+    },
+    {
+        "label": "OrderAction",
+        "importPath": "actions.OrderAction",
+        "description": "actions.OrderAction",
+        "isExtraImport": true,
+        "detail": "actions.OrderAction",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "importPath": "actions.SearchAction",
+        "description": "actions.SearchAction",
+        "isExtraImport": true,
+        "detail": "actions.SearchAction",
         "documentation": {}
     },
     {
@@ -1165,6 +1276,15 @@
         "importPath": "pytest_check",
         "description": "pytest_check",
         "detail": "pytest_check",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
         "documentation": {}
     },
     {
@@ -1542,6 +1662,375 @@
         "documentation": {}
     },
     {
+        "label": "LoginActions",
+        "kind": 6,
+        "importPath": "Pytest_Framework.POM_PYTEST.actions.loginAction",
+        "description": "Pytest_Framework.POM_PYTEST.actions.loginAction",
+        "peekOfCode": "class LoginActions(LoginPage):\n    def __init__(self, driver):\n        self.driver = driver\n    def click_myacc(self):\n        self.driver.find_element(*self.myacc).click()\n    def click_login_link(self):\n        self.driver.find_element(*self.loginbtn).click()\n    def enter_email(self,mail):\n        self.driver.find_element(*self.email).send_keys(mail)\n    def enter_password(self,pwd):",
+        "detail": "Pytest_Framework.POM_PYTEST.actions.loginAction",
+        "documentation": {}
+    },
+    {
+        "label": "OrderAction",
+        "kind": 6,
+        "importPath": "Pytest_Framework.POM_PYTEST.actions.OrderAction",
+        "description": "Pytest_Framework.POM_PYTEST.actions.OrderAction",
+        "peekOfCode": "class OrderAction(OrderPage):\n    def __init__(self, driver):\n        self.driver = driver\n        self.wait = WebDriverWait(driver,10)\n    def clk_myacc(self):\n        self.wait.until(EC.element_to_be_clickable(self.myacc)).click()\n    def clk_login(self):\n        self.wait.until(EC.element_to_be_clickable(self.loginbtn)).click()\n    def clck_mail(self):\n        self.wait.until(EC.visibility_of_element_located(self.email)).send_keys(\"muhindhar27@gmail.com\")",
+        "detail": "Pytest_Framework.POM_PYTEST.actions.OrderAction",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "kind": 6,
+        "importPath": "Pytest_Framework.POM_PYTEST.actions.SearchAction",
+        "description": "Pytest_Framework.POM_PYTEST.actions.SearchAction",
+        "peekOfCode": "class search(Searchpage):\n    def __init__(self,driver):\n        self.driver =  driver\n    def click_bar(self):\n        self.driver.find_element(*self.searchbar).send_keys(\"hp\")\n    def clic_search(self):\n        self.driver.find_element(*self.search).click()\n    def check_search(self):\n        return self.driver.find_element(*self.check).is_displayed()",
+        "detail": "Pytest_Framework.POM_PYTEST.actions.SearchAction",
+        "documentation": {}
+    },
+    {
+        "label": "LoginPage",
+        "kind": 6,
+        "importPath": "Pytest_Framework.POM_PYTEST.pages.loginPage",
+        "description": "Pytest_Framework.POM_PYTEST.pages.loginPage",
+        "peekOfCode": "class LoginPage:\n    myacc = (By.XPATH,\"//span[normalize-space()='My Account']\")\n    loginbtn = (By.XPATH,\"//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']\")\n    email = (By.XPATH,\"//input[@id='input-email']\")\n    password = (By.XPATH,\"//input[@id='input-password']\")\n    loginok = (By.XPATH,\"//input[@value='Login']\")\n    myacccheck = (By.XPATH, \"//h2[text()='My Account']\")\n    invalidlogin = (By.XPATH,\"//div[@class='alert alert-danger alert-dismissible']\")",
+        "detail": "Pytest_Framework.POM_PYTEST.pages.loginPage",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPage",
+        "kind": 6,
+        "importPath": "Pytest_Framework.POM_PYTEST.pages.orderPage",
+        "description": "Pytest_Framework.POM_PYTEST.pages.orderPage",
+        "peekOfCode": "class OrderPage:\n    myacc = (By.XPATH,\"//span[normalize-space()='My Account']\")\n    loginbtn = (By.XPATH,\"//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']\")\n    email = (By.XPATH,\"//input[@id='input-email']\")\n    password = (By.XPATH,\"//input[@id='input-password']\")\n    loginok = (By.XPATH,\"//input[@value='Login']\")\n    searchbar = (By.XPATH,\"//input[@placeholder='Search']\")\n    search = (By.XPATH,\"//button[@class='btn btn-default btn-lg']\")\n    lap = (By.XPATH,\"//div[@class='caption']//a[contains(text(),'HP LP3065')]\")\n    addtocart = (By.XPATH,\"//button[@id='button-cart']\")",
+        "detail": "Pytest_Framework.POM_PYTEST.pages.orderPage",
+        "documentation": {}
+    },
+    {
+        "label": "Searchpage",
+        "kind": 6,
+        "importPath": "Pytest_Framework.POM_PYTEST.pages.searchpage",
+        "description": "Pytest_Framework.POM_PYTEST.pages.searchpage",
+        "peekOfCode": "class Searchpage:\n    searchbar = (By.XPATH,\"//input[@placeholder='Search']\")\n    search = (By.XPATH,\"//button[@class='btn btn-default btn-lg']\")\n    check= (By.XPATH,\"//h1[normalize-space()='Search - hp']\")",
+        "detail": "Pytest_Framework.POM_PYTEST.pages.searchpage",
+        "documentation": {}
+    },
+    {
+        "label": "TestLogin",
+        "kind": 6,
+        "importPath": "Pytest_Framework.POM_PYTEST.tests.test_login",
+        "description": "Pytest_Framework.POM_PYTEST.tests.test_login",
+        "peekOfCode": "class TestLogin:\n    def test_login(self, username, password, case):\n        login = LoginActions(self.driver)\n        login.click_myacc()\n        login.click_login_link()\n        login.enter_email(username)\n        login.enter_password(str(password))\n        login.click_login()\n        if case.lower() == \"valid\":\n            assert login.check_login()",
+        "detail": "Pytest_Framework.POM_PYTEST.tests.test_login",
+        "documentation": {}
+    },
+    {
+        "label": "Test_Order",
+        "kind": 6,
+        "importPath": "Pytest_Framework.POM_PYTEST.tests.test_order",
+        "description": "Pytest_Framework.POM_PYTEST.tests.test_order",
+        "peekOfCode": "class Test_Order():\n    def test_order(self):\n        ord= OrderAction(self.driver)\n        ord.clk_myacc()\n        ord.clk_login()\n        ord.clck_mail()\n        ord.clk_pass()\n        ord.clk_loginbtn()\n        ord.clk_searchbar()\n        ord.clk_search()",
+        "detail": "Pytest_Framework.POM_PYTEST.tests.test_order",
+        "documentation": {}
+    },
+    {
+        "label": "TestSearch",
+        "kind": 6,
+        "importPath": "Pytest_Framework.POM_PYTEST.tests.test_search",
+        "description": "Pytest_Framework.POM_PYTEST.tests.test_search",
+        "peekOfCode": "class TestSearch():\n    def test_search_page(self):\n        srch = search(self.driver)\n        srch.click_bar()\n        srch.clic_search()\n        srch.check_search()",
+        "detail": "Pytest_Framework.POM_PYTEST.tests.test_search",
+        "documentation": {}
+    },
+    {
+        "label": "get_data",
+        "kind": 2,
+        "importPath": "Pytest_Framework.POM_PYTEST.utilities.excel_reader",
+        "description": "Pytest_Framework.POM_PYTEST.utilities.excel_reader",
+        "peekOfCode": "def get_data(path,sheetname):\n    final_list=[]\n    workbook = openpyxl.load_workbook(path)\n    sheet = workbook[sheetname]\n    tot_row = sheet.max_row\n    tot_col=sheet.max_column\n    for r in range(2,tot_row+1):\n        row_list=[]\n        for c in range(1,tot_col+1):\n            row_list.append(sheet.cell(r,c).value)",
+        "detail": "Pytest_Framework.POM_PYTEST.utilities.excel_reader",
+        "documentation": {}
+    },
+    {
+        "label": "setup_teardown",
+        "kind": 2,
+        "importPath": "Pytest_Framework.POM_PYTEST.conftest",
+        "description": "Pytest_Framework.POM_PYTEST.conftest",
+        "peekOfCode": "def setup_teardown(request):\n    browser = get_config(\"basic info\", \"browser\")\n    if browser == \"chrome\":\n        driver = webdriver.Chrome()\n    elif browser == \"edge\":\n        driver = webdriver.Edge()\n    elif browser == \"firefox\":\n        driver = webdriver.Firefox()\n    driver.maximize_window()\n    driver.implicitly_wait(10)",
+        "detail": "Pytest_Framework.POM_PYTEST.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "get_config",
+        "kind": 2,
+        "importPath": "Pytest_Framework.POM_PYTEST.read_config",
+        "description": "Pytest_Framework.POM_PYTEST.read_config",
+        "peekOfCode": "def get_config(category, key):\n    config = ConfigParser()\n    config_path = os.path.join(os.path.dirname(__file__),\"config.ini\")\n    config.read(config_path)\n    return config.get(category, key)",
+        "detail": "Pytest_Framework.POM_PYTEST.read_config",
+        "documentation": {}
+    },
+    {
+        "label": "test_setup_teardown",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.conftest",
+        "description": "Pytest_Framework.test_practice.conftest",
+        "peekOfCode": "def test_setup_teardown(request):\n    browser = getattr(request, \"param\", \"chrome\")\n    if browser == \"chrome\":\n        driver = webdriver.Chrome()\n    elif browser == \"firefox\":\n        driver = webdriver.Firefox()\n    elif browser == \"edge\":\n        driver = webdriver.Edge()\n    driver.maximize_window()\n    driver.implicitly_wait(5)",
+        "detail": "Pytest_Framework.test_practice.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "test_url",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Browsers",
+        "description": "Pytest_Framework.test_practice.test_Browsers",
+        "peekOfCode": "def test_url(input_browser, input_url):\n    if input_browser == \"chrome\":\n        options = ChromeOptions()\n        options.add_argument(\"--headless=new\")\n        web_driver = webdriver.Chrome(options=options)\n    if input_browser == \"firefox\":\n        options = FirefoxOptions()\n        options.add_argument(\"--headless\")\n        web_driver = webdriver.Firefox(options=options)\n    if input_browser == \"edge\":",
+        "detail": "Pytest_Framework.test_practice.test_Browsers",
+        "documentation": {}
+    },
+    {
+        "label": "test_one",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_demo",
+        "description": "Pytest_Framework.test_practice.test_demo",
+        "peekOfCode": "def test_one():\n    print(\"Hi\")\ndef test_two():\n    print(\"Two\")\ndef test_three():\n    print(\"Three\")\ndef test_four():\n    print(\"Four\")\ndef test_add():\n    assert 1+1==2",
+        "detail": "Pytest_Framework.test_practice.test_demo",
+        "documentation": {}
+    },
+    {
+        "label": "test_two",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_demo",
+        "description": "Pytest_Framework.test_practice.test_demo",
+        "peekOfCode": "def test_two():\n    print(\"Two\")\ndef test_three():\n    print(\"Three\")\ndef test_four():\n    print(\"Four\")\ndef test_add():\n    assert 1+1==2",
+        "detail": "Pytest_Framework.test_practice.test_demo",
+        "documentation": {}
+    },
+    {
+        "label": "test_three",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_demo",
+        "description": "Pytest_Framework.test_practice.test_demo",
+        "peekOfCode": "def test_three():\n    print(\"Three\")\ndef test_four():\n    print(\"Four\")\ndef test_add():\n    assert 1+1==2",
+        "detail": "Pytest_Framework.test_practice.test_demo",
+        "documentation": {}
+    },
+    {
+        "label": "test_four",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_demo",
+        "description": "Pytest_Framework.test_practice.test_demo",
+        "peekOfCode": "def test_four():\n    print(\"Four\")\ndef test_add():\n    assert 1+1==2",
+        "detail": "Pytest_Framework.test_practice.test_demo",
+        "documentation": {}
+    },
+    {
+        "label": "test_add",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_demo",
+        "description": "Pytest_Framework.test_practice.test_demo",
+        "peekOfCode": "def test_add():\n    assert 1+1==2",
+        "detail": "Pytest_Framework.test_practice.test_demo",
+        "documentation": {}
+    },
+    {
+        "label": "test_one",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_demo2",
+        "description": "Pytest_Framework.test_practice.test_demo2",
+        "peekOfCode": "def test_one():\n    print(\"Hi\")\ndef test_two():\n    print(\"Two\")",
+        "detail": "Pytest_Framework.test_practice.test_demo2",
+        "documentation": {}
+    },
+    {
+        "label": "test_two",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_demo2",
+        "description": "Pytest_Framework.test_practice.test_demo2",
+        "peekOfCode": "def test_two():\n    print(\"Two\")",
+        "detail": "Pytest_Framework.test_practice.test_demo2",
+        "documentation": {}
+    },
+    {
+        "label": "test_setup_teardown",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_fixtures",
+        "description": "Pytest_Framework.test_practice.test_fixtures",
+        "peekOfCode": "def test_setup_teardown():\n    global driver\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(5)\n    driver.get(\"https://tutorialsninja.com/demo/\")\n    yield\n    driver.quit()\ndef test_valid(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"hp\")",
+        "detail": "Pytest_Framework.test_practice.test_fixtures",
+        "documentation": {}
+    },
+    {
+        "label": "test_valid",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_fixtures",
+        "description": "Pytest_Framework.test_practice.test_fixtures",
+        "peekOfCode": "def test_valid(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"hp\")\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    assert driver.find_element(By.XPATH,\"//a[normalize-space()='HP LP3065']\").is_displayed()\ndef test_invalid(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp",
+        "detail": "Pytest_Framework.test_practice.test_fixtures",
+        "documentation": {}
+    },
+    {
+        "label": "test_invalid",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_fixtures",
+        "description": "Pytest_Framework.test_practice.test_fixtures",
+        "peekOfCode": "def test_invalid(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp\ndef test_noproduct(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text",
+        "detail": "Pytest_Framework.test_practice.test_fixtures",
+        "documentation": {}
+    },
+    {
+        "label": "test_noproduct",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_fixtures",
+        "description": "Pytest_Framework.test_practice.test_fixtures",
+        "peekOfCode": "def test_noproduct(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp",
+        "detail": "Pytest_Framework.test_practice.test_fixtures",
+        "documentation": {}
+    },
+    {
+        "label": "TestSearch",
+        "kind": 6,
+        "importPath": "Pytest_Framework.test_practice.test_fixture_ex2",
+        "description": "Pytest_Framework.test_practice.test_fixture_ex2",
+        "peekOfCode": "class TestSearch:    \n    def test_valid(self):\n        self.driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"hp\")\n        self.driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n        assert self.driver.find_element(By.XPATH,\"//a[normalize-space()='HP LP3065']\").is_displayed()\n    def test_invalid(self):\n        self.driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"honda\")\n        self.driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n        exp = \"There is no product that matches the search criteria.\"\n        actual = self.driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text",
+        "detail": "Pytest_Framework.test_practice.test_fixture_ex2",
+        "documentation": {}
+    },
+    {
+        "label": "setup_function",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Hooks",
+        "description": "Pytest_Framework.test_practice.test_Hooks",
+        "peekOfCode": "def setup_function(function):\n    global driver\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(5)\n    driver.get(\"https://tutorialsninja.com/demo/\")\ndef teardown_function(function):\n    driver.quit()\ndef test_valid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"hp\")",
+        "detail": "Pytest_Framework.test_practice.test_Hooks",
+        "documentation": {}
+    },
+    {
+        "label": "teardown_function",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Hooks",
+        "description": "Pytest_Framework.test_practice.test_Hooks",
+        "peekOfCode": "def teardown_function(function):\n    driver.quit()\ndef test_valid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"hp\")\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    assert driver.find_element(By.XPATH, \"//a[normalize-space()='HP LP3065']\").is_displayed()\ndef test_invalid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"",
+        "detail": "Pytest_Framework.test_practice.test_Hooks",
+        "documentation": {}
+    },
+    {
+        "label": "test_valid",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Hooks",
+        "description": "Pytest_Framework.test_practice.test_Hooks",
+        "peekOfCode": "def test_valid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"hp\")\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    assert driver.find_element(By.XPATH, \"//a[normalize-space()='HP LP3065']\").is_displayed()\ndef test_invalid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH, \"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp",
+        "detail": "Pytest_Framework.test_practice.test_Hooks",
+        "documentation": {}
+    },
+    {
+        "label": "test_invalid",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Hooks",
+        "description": "Pytest_Framework.test_practice.test_Hooks",
+        "peekOfCode": "def test_invalid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH, \"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp\ndef test_noproduct():\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH, \"//p[contains(text(),'There is no product')]\").text",
+        "detail": "Pytest_Framework.test_practice.test_Hooks",
+        "documentation": {}
+    },
+    {
+        "label": "test_noproduct",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Hooks",
+        "description": "Pytest_Framework.test_practice.test_Hooks",
+        "peekOfCode": "def test_noproduct():\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH, \"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp",
+        "detail": "Pytest_Framework.test_practice.test_Hooks",
+        "documentation": {}
+    },
+    {
+        "label": "test_one",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Markers",
+        "description": "Pytest_Framework.test_practice.test_Markers",
+        "peekOfCode": "def test_one():\n    print(\"Hi\")\n@pytest.mark.regression\ndef test_two():\n    print(\"Two\")\n@pytest.mark.regression\ndef test_three():\n    print(\"Three\")\n@pytest.mark.regression\n@pytest.mark.xfail(reason=\"demo\")",
+        "detail": "Pytest_Framework.test_practice.test_Markers",
+        "documentation": {}
+    },
+    {
+        "label": "test_two",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Markers",
+        "description": "Pytest_Framework.test_practice.test_Markers",
+        "peekOfCode": "def test_two():\n    print(\"Two\")\n@pytest.mark.regression\ndef test_three():\n    print(\"Three\")\n@pytest.mark.regression\n@pytest.mark.xfail(reason=\"demo\")\ndef test_four():\n    print(\"Four\")\n@pytest.mark.skip(reason=\"simple\")",
+        "detail": "Pytest_Framework.test_practice.test_Markers",
+        "documentation": {}
+    },
+    {
+        "label": "test_three",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Markers",
+        "description": "Pytest_Framework.test_practice.test_Markers",
+        "peekOfCode": "def test_three():\n    print(\"Three\")\n@pytest.mark.regression\n@pytest.mark.xfail(reason=\"demo\")\ndef test_four():\n    print(\"Four\")\n@pytest.mark.skip(reason=\"simple\")\n@pytest.mark.regression\ndef test_add():\n    assert 1+1 == 2",
+        "detail": "Pytest_Framework.test_practice.test_Markers",
+        "documentation": {}
+    },
+    {
+        "label": "test_four",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Markers",
+        "description": "Pytest_Framework.test_practice.test_Markers",
+        "peekOfCode": "def test_four():\n    print(\"Four\")\n@pytest.mark.skip(reason=\"simple\")\n@pytest.mark.regression\ndef test_add():\n    assert 1+1 == 2\n@pytest.mark.regression\ndef test_five():\n    print(\"Five\")",
+        "detail": "Pytest_Framework.test_practice.test_Markers",
+        "documentation": {}
+    },
+    {
+        "label": "test_add",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Markers",
+        "description": "Pytest_Framework.test_practice.test_Markers",
+        "peekOfCode": "def test_add():\n    assert 1+1 == 2\n@pytest.mark.regression\ndef test_five():\n    print(\"Five\")",
+        "detail": "Pytest_Framework.test_practice.test_Markers",
+        "documentation": {}
+    },
+    {
+        "label": "test_five",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_Markers",
+        "description": "Pytest_Framework.test_practice.test_Markers",
+        "peekOfCode": "def test_five():\n    print(\"Five\")",
+        "detail": "Pytest_Framework.test_practice.test_Markers",
+        "documentation": {}
+    },
+    {
+        "label": "test_addnum",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_parameterization",
+        "description": "Pytest_Framework.test_practice.test_parameterization",
+        "peekOfCode": "def test_addnum(test_input,exp):\n    assert test_input+2 == exp",
+        "detail": "Pytest_Framework.test_practice.test_parameterization",
+        "documentation": {}
+    },
+    {
+        "label": "test_google",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_search",
+        "description": "Pytest_Framework.test_practice.test_search",
+        "peekOfCode": "def test_google(search_item):\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.get(\"https://www.google.com\")\n    search_box = driver.find_element(By.NAME, \"q\")\n    search_box.send_keys(search_item)\n    search_box.send_keys(Keys.ENTER)\n    driver.close()",
+        "detail": "Pytest_Framework.test_practice.test_search",
+        "documentation": {}
+    },
+    {
+        "label": "test_invalid",
+        "kind": 2,
+        "importPath": "Pytest_Framework.test_practice.test_SoftAssertions",
+        "description": "Pytest_Framework.test_practice.test_SoftAssertions",
+        "peekOfCode": "def test_invalid():\n    driver.get(\"https://tutorialsninja.com/demo/\")\n    driver.find_element(\n        By.XPATH,\n        \"//input[@placeholder='Search']\"\n    ).send_keys(\"honda\")\n    driver.find_element(\n        By.XPATH,\n        \"//button[@class='btn btn-default btn-lg']\"\n    ).click()",
+        "detail": "Pytest_Framework.test_practice.test_SoftAssertions",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "Pytest_Framework.test_practice.test_SoftAssertions",
+        "description": "Pytest_Framework.test_practice.test_SoftAssertions",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.implicitly_wait(5)\ndef test_invalid():\n    driver.get(\"https://tutorialsninja.com/demo/\")\n    driver.find_element(\n        By.XPATH,\n        \"//input[@placeholder='Search']\"\n    ).send_keys(\"honda\")\n    driver.find_element(",
+        "detail": "Pytest_Framework.test_practice.test_SoftAssertions",
+        "documentation": {}
+    },
+    {
         "label": "get_data",
         "kind": 2,
         "importPath": "Pytest_Framework.TutorialsNinja.Utilities.csvReader",
@@ -1611,267 +2100,6 @@
         "description": "Pytest_Framework.TutorialsNinja.test_orderProd",
         "peekOfCode": "class Test_order:\n    def test_product(self, order):\n        wait = WebDriverWait(self.driver, 20)\n        my_account = wait.until(EC.presence_of_element_located((By.XPATH, \"//span[normalize-space()='My Account']\")))\n        self.driver.execute_script(\"arguments[0].click();\",my_account)\n        self.driver.find_element(By.XPATH,\"//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']\").click()\n        self.driver.find_element(By.XPATH,\"//input[@id='input-email']\").send_keys(get_config(\"valid login cred\", \"mail\"))\n        self.driver.find_element(By.XPATH,\"//input[@id='input-password']\").send_keys(get_config(\"valid login cred\", \"pass\"))\n        self.driver.find_element(By.XPATH,\"//input[@value='Login']\").click()\n        wait.until(EC.visibility_of_element_located((By.XPATH, \"//h2[text()='My Account']\")))",
         "detail": "Pytest_Framework.TutorialsNinja.test_orderProd",
-        "documentation": {}
-    },
-    {
-        "label": "test_setup_teardown",
-        "kind": 2,
-        "importPath": "Pytest_Framework.conftest",
-        "description": "Pytest_Framework.conftest",
-        "peekOfCode": "def test_setup_teardown(request):\n    browser = getattr(request, \"param\", \"chrome\")\n    if browser == \"chrome\":\n        driver = webdriver.Chrome()\n    elif browser == \"firefox\":\n        driver = webdriver.Firefox()\n    elif browser == \"edge\":\n        driver = webdriver.Edge()\n    driver.maximize_window()\n    driver.implicitly_wait(5)",
-        "detail": "Pytest_Framework.conftest",
-        "documentation": {}
-    },
-    {
-        "label": "test_url",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Browsers",
-        "description": "Pytest_Framework.test_Browsers",
-        "peekOfCode": "def test_url(input_browser, input_url):\n    if input_browser == \"chrome\":\n        options = ChromeOptions()\n        options.add_argument(\"--headless=new\")\n        web_driver = webdriver.Chrome(options=options)\n    if input_browser == \"firefox\":\n        options = FirefoxOptions()\n        options.add_argument(\"--headless\")\n        web_driver = webdriver.Firefox(options=options)\n    if input_browser == \"edge\":",
-        "detail": "Pytest_Framework.test_Browsers",
-        "documentation": {}
-    },
-    {
-        "label": "test_one",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_demo",
-        "description": "Pytest_Framework.test_demo",
-        "peekOfCode": "def test_one():\n    print(\"Hi\")\ndef test_two():\n    print(\"Two\")\ndef test_three():\n    print(\"Three\")\ndef test_four():\n    print(\"Four\")\ndef test_add():\n    assert 1+1==2",
-        "detail": "Pytest_Framework.test_demo",
-        "documentation": {}
-    },
-    {
-        "label": "test_two",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_demo",
-        "description": "Pytest_Framework.test_demo",
-        "peekOfCode": "def test_two():\n    print(\"Two\")\ndef test_three():\n    print(\"Three\")\ndef test_four():\n    print(\"Four\")\ndef test_add():\n    assert 1+1==2",
-        "detail": "Pytest_Framework.test_demo",
-        "documentation": {}
-    },
-    {
-        "label": "test_three",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_demo",
-        "description": "Pytest_Framework.test_demo",
-        "peekOfCode": "def test_three():\n    print(\"Three\")\ndef test_four():\n    print(\"Four\")\ndef test_add():\n    assert 1+1==2",
-        "detail": "Pytest_Framework.test_demo",
-        "documentation": {}
-    },
-    {
-        "label": "test_four",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_demo",
-        "description": "Pytest_Framework.test_demo",
-        "peekOfCode": "def test_four():\n    print(\"Four\")\ndef test_add():\n    assert 1+1==2",
-        "detail": "Pytest_Framework.test_demo",
-        "documentation": {}
-    },
-    {
-        "label": "test_add",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_demo",
-        "description": "Pytest_Framework.test_demo",
-        "peekOfCode": "def test_add():\n    assert 1+1==2",
-        "detail": "Pytest_Framework.test_demo",
-        "documentation": {}
-    },
-    {
-        "label": "test_one",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_demo2",
-        "description": "Pytest_Framework.test_demo2",
-        "peekOfCode": "def test_one():\n    print(\"Hi\")\ndef test_two():\n    print(\"Two\")",
-        "detail": "Pytest_Framework.test_demo2",
-        "documentation": {}
-    },
-    {
-        "label": "test_two",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_demo2",
-        "description": "Pytest_Framework.test_demo2",
-        "peekOfCode": "def test_two():\n    print(\"Two\")",
-        "detail": "Pytest_Framework.test_demo2",
-        "documentation": {}
-    },
-    {
-        "label": "test_setup_teardown",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_fixtures",
-        "description": "Pytest_Framework.test_fixtures",
-        "peekOfCode": "def test_setup_teardown():\n    global driver\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(5)\n    driver.get(\"https://tutorialsninja.com/demo/\")\n    yield\n    driver.quit()\ndef test_valid(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"hp\")",
-        "detail": "Pytest_Framework.test_fixtures",
-        "documentation": {}
-    },
-    {
-        "label": "test_valid",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_fixtures",
-        "description": "Pytest_Framework.test_fixtures",
-        "peekOfCode": "def test_valid(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"hp\")\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    assert driver.find_element(By.XPATH,\"//a[normalize-space()='HP LP3065']\").is_displayed()\ndef test_invalid(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp",
-        "detail": "Pytest_Framework.test_fixtures",
-        "documentation": {}
-    },
-    {
-        "label": "test_invalid",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_fixtures",
-        "description": "Pytest_Framework.test_fixtures",
-        "peekOfCode": "def test_invalid(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp\ndef test_noproduct(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text",
-        "detail": "Pytest_Framework.test_fixtures",
-        "documentation": {}
-    },
-    {
-        "label": "test_noproduct",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_fixtures",
-        "description": "Pytest_Framework.test_fixtures",
-        "peekOfCode": "def test_noproduct(test_setup_teardown):\n    driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp",
-        "detail": "Pytest_Framework.test_fixtures",
-        "documentation": {}
-    },
-    {
-        "label": "TestSearch",
-        "kind": 6,
-        "importPath": "Pytest_Framework.test_fixture_ex2",
-        "description": "Pytest_Framework.test_fixture_ex2",
-        "peekOfCode": "class TestSearch:    \n    def test_valid(self):\n        self.driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"hp\")\n        self.driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n        assert self.driver.find_element(By.XPATH,\"//a[normalize-space()='HP LP3065']\").is_displayed()\n    def test_invalid(self):\n        self.driver.find_element(By.XPATH,\"//input[@placeholder='Search']\").send_keys(\"honda\")\n        self.driver.find_element(By.XPATH,\"//button[@class='btn btn-default btn-lg']\").click()\n        exp = \"There is no product that matches the search criteria.\"\n        actual = self.driver.find_element(By.XPATH,\"//p[contains(text(),'There is no product')]\").text",
-        "detail": "Pytest_Framework.test_fixture_ex2",
-        "documentation": {}
-    },
-    {
-        "label": "setup_function",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Hooks",
-        "description": "Pytest_Framework.test_Hooks",
-        "peekOfCode": "def setup_function(function):\n    global driver\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(5)\n    driver.get(\"https://tutorialsninja.com/demo/\")\ndef teardown_function(function):\n    driver.quit()\ndef test_valid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"hp\")",
-        "detail": "Pytest_Framework.test_Hooks",
-        "documentation": {}
-    },
-    {
-        "label": "teardown_function",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Hooks",
-        "description": "Pytest_Framework.test_Hooks",
-        "peekOfCode": "def teardown_function(function):\n    driver.quit()\ndef test_valid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"hp\")\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    assert driver.find_element(By.XPATH, \"//a[normalize-space()='HP LP3065']\").is_displayed()\ndef test_invalid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"",
-        "detail": "Pytest_Framework.test_Hooks",
-        "documentation": {}
-    },
-    {
-        "label": "test_valid",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Hooks",
-        "description": "Pytest_Framework.test_Hooks",
-        "peekOfCode": "def test_valid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"hp\")\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    assert driver.find_element(By.XPATH, \"//a[normalize-space()='HP LP3065']\").is_displayed()\ndef test_invalid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH, \"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp",
-        "detail": "Pytest_Framework.test_Hooks",
-        "documentation": {}
-    },
-    {
-        "label": "test_invalid",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Hooks",
-        "description": "Pytest_Framework.test_Hooks",
-        "peekOfCode": "def test_invalid():\n    driver.find_element(By.XPATH, \"//input[@placeholder='Search']\").send_keys(\"honda\")\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH, \"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp\ndef test_noproduct():\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH, \"//p[contains(text(),'There is no product')]\").text",
-        "detail": "Pytest_Framework.test_Hooks",
-        "documentation": {}
-    },
-    {
-        "label": "test_noproduct",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Hooks",
-        "description": "Pytest_Framework.test_Hooks",
-        "peekOfCode": "def test_noproduct():\n    driver.find_element(By.XPATH, \"//button[@class='btn btn-default btn-lg']\").click()\n    exp = \"There is no product that matches the search criteria.\"\n    actual = driver.find_element(By.XPATH, \"//p[contains(text(),'There is no product')]\").text\n    assert actual == exp",
-        "detail": "Pytest_Framework.test_Hooks",
-        "documentation": {}
-    },
-    {
-        "label": "test_one",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Markers",
-        "description": "Pytest_Framework.test_Markers",
-        "peekOfCode": "def test_one():\n    print(\"Hi\")\n@pytest.mark.regression\ndef test_two():\n    print(\"Two\")\n@pytest.mark.regression\ndef test_three():\n    print(\"Three\")\n@pytest.mark.regression\n@pytest.mark.xfail(reason=\"demo\")",
-        "detail": "Pytest_Framework.test_Markers",
-        "documentation": {}
-    },
-    {
-        "label": "test_two",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Markers",
-        "description": "Pytest_Framework.test_Markers",
-        "peekOfCode": "def test_two():\n    print(\"Two\")\n@pytest.mark.regression\ndef test_three():\n    print(\"Three\")\n@pytest.mark.regression\n@pytest.mark.xfail(reason=\"demo\")\ndef test_four():\n    print(\"Four\")\n@pytest.mark.skip(reason=\"simple\")",
-        "detail": "Pytest_Framework.test_Markers",
-        "documentation": {}
-    },
-    {
-        "label": "test_three",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Markers",
-        "description": "Pytest_Framework.test_Markers",
-        "peekOfCode": "def test_three():\n    print(\"Three\")\n@pytest.mark.regression\n@pytest.mark.xfail(reason=\"demo\")\ndef test_four():\n    print(\"Four\")\n@pytest.mark.skip(reason=\"simple\")\n@pytest.mark.regression\ndef test_add():\n    assert 1+1 == 2",
-        "detail": "Pytest_Framework.test_Markers",
-        "documentation": {}
-    },
-    {
-        "label": "test_four",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Markers",
-        "description": "Pytest_Framework.test_Markers",
-        "peekOfCode": "def test_four():\n    print(\"Four\")\n@pytest.mark.skip(reason=\"simple\")\n@pytest.mark.regression\ndef test_add():\n    assert 1+1 == 2\n@pytest.mark.regression\ndef test_five():\n    print(\"Five\")",
-        "detail": "Pytest_Framework.test_Markers",
-        "documentation": {}
-    },
-    {
-        "label": "test_add",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Markers",
-        "description": "Pytest_Framework.test_Markers",
-        "peekOfCode": "def test_add():\n    assert 1+1 == 2\n@pytest.mark.regression\ndef test_five():\n    print(\"Five\")",
-        "detail": "Pytest_Framework.test_Markers",
-        "documentation": {}
-    },
-    {
-        "label": "test_five",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_Markers",
-        "description": "Pytest_Framework.test_Markers",
-        "peekOfCode": "def test_five():\n    print(\"Five\")",
-        "detail": "Pytest_Framework.test_Markers",
-        "documentation": {}
-    },
-    {
-        "label": "test_addnum",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_parameterization",
-        "description": "Pytest_Framework.test_parameterization",
-        "peekOfCode": "def test_addnum(test_input,exp):\n    assert test_input+2 == exp",
-        "detail": "Pytest_Framework.test_parameterization",
-        "documentation": {}
-    },
-    {
-        "label": "test_google",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_search",
-        "description": "Pytest_Framework.test_search",
-        "peekOfCode": "def test_google(search_item):\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.get(\"https://www.google.com\")\n    search_box = driver.find_element(By.NAME, \"q\")\n    search_box.send_keys(search_item)\n    search_box.send_keys(Keys.ENTER)\n    driver.close()",
-        "detail": "Pytest_Framework.test_search",
-        "documentation": {}
-    },
-    {
-        "label": "test_invalid",
-        "kind": 2,
-        "importPath": "Pytest_Framework.test_SoftAssertions",
-        "description": "Pytest_Framework.test_SoftAssertions",
-        "peekOfCode": "def test_invalid():\n    driver.get(\"https://tutorialsninja.com/demo/\")\n    driver.find_element(\n        By.XPATH,\n        \"//input[@placeholder='Search']\"\n    ).send_keys(\"honda\")\n    driver.find_element(\n        By.XPATH,\n        \"//button[@class='btn btn-default btn-lg']\"\n    ).click()",
-        "detail": "Pytest_Framework.test_SoftAssertions",
-        "documentation": {}
-    },
-    {
-        "label": "driver",
-        "kind": 5,
-        "importPath": "Pytest_Framework.test_SoftAssertions",
-        "description": "Pytest_Framework.test_SoftAssertions",
-        "peekOfCode": "driver = webdriver.Chrome()\ndriver.maximize_window()\ndriver.implicitly_wait(5)\ndef test_invalid():\n    driver.get(\"https://tutorialsninja.com/demo/\")\n    driver.find_element(\n        By.XPATH,\n        \"//input[@placeholder='Search']\"\n    ).send_keys(\"honda\")\n    driver.find_element(",
-        "detail": "Pytest_Framework.test_SoftAssertions",
         "documentation": {}
     },
     {
