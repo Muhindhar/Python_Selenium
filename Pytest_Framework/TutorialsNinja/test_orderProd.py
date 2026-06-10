@@ -4,8 +4,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from Utilities import excelutilites
 from read_config import get_config
-from Selenium_Practice.AutomationExercise import zipcode
-
 
 @pytest.mark.parametrize("order",excelutilites.get_data(r"D:\Python_Selenium\Pytest_Framework\TutorialsNinja\ExcelFiles\order.xlsx","Sheet1"))
 @pytest.mark.usefixtures("setup_teardown")

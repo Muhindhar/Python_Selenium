@@ -1111,14 +1111,6 @@
         "documentation": {}
     },
     {
-        "label": "zipcode",
-        "importPath": "Selenium_Practice.AutomationExercise",
-        "description": "Selenium_Practice.AutomationExercise",
-        "isExtraImport": true,
-        "detail": "Selenium_Practice.AutomationExercise",
-        "documentation": {}
-    },
-    {
         "label": "Options",
         "importPath": "selenium.webdriver.chrome.options",
         "description": "selenium.webdriver.chrome.options",
