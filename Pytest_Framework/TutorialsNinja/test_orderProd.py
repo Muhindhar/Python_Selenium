@@ -21,19 +21,36 @@ class Test_order:
         self.driver.get(get_config("basic info", "url"))
 
         search_box = wait.until(EC.visibility_of_element_located((By.XPATH, "//input[@placeholder='Search']")))
-        search_box.clear()
         search_box.send_keys(order[0])
         self.driver.find_element(By.XPATH,"//button[@class='btn btn-default btn-lg']").click()
-        wait.until(EC.element_to_be_clickable((By.XPATH, "(//div[@class='product-thumb']//h4/a)[1]"))).click()
-        wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@id='button-cart']"))).click()
-        wait.until(EC.element_to_be_clickable((By.XPATH, "//span[contains(text(),'Shopping Cart')]"))).click()
-        wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@title='Checkout']//i[@class='fa fa-share']"))).click()
-        wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@id='button-payment-address']"))).click()
-        wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@id='button-shipping-address']"))).click()
-        wait.until(EC.element_to_be_clickable((By.ID, "button-shipping-method"))).click()
+        wait.until(EC.element_to_be_clickable((By.XPATH,"(//div[@class='product-thumb']//h4/a)[1]"))).click()
+        wait.until(EC.element_to_be_clickable((By.XPATH,"//button[@id='button-cart']"))).click()
+        wait.until(EC.element_to_be_clickable((By.XPATH,"//span[normalize-space()='Shopping Cart']"))).click()
+        wait.until(EC.element_to_be_clickable((By.XPATH,"//a[@class='btn btn-primary']"))).click()
+        wait.until(EC.element_to_be_clickable((By.XPATH,"//input[@id='button-payment-address']"))).click()
+        wait.until(EC.element_to_be_clickable((By.XPATH,"//input[@id='button-shipping-address']"))).click()
+        wait.until(EC.element_to_be_clickable((By.ID,"button-shipping-method"))).click()
 
-        wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@name='agree']"))).click()
-        wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@id='button-payment-method']"))).click()
+        wait.until(EC.element_to_be_clickable((By.XPATH,"//input[@name='agree']"))).click()
+        wait.until(EC.element_to_be_clickable((By.XPATH,"//input[@id='button-payment-method']"))).click()
         wait.until(EC.element_to_be_clickable((By.XPATH,"//input[@id='button-confirm']"))).click()
-        actual = wait.until(EC.visibility_of_element_located((By.XPATH, "//h1[contains(text(),'Your order has been placed')]"))).text
+        actual = wait.until(EC.visibility_of_element_located((By.XPATH,"//h1[contains(text(),'Your order has been placed')]"))).text
         assert actual == "Your order has been placed!"
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+     

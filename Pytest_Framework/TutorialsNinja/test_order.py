@@ -7,5 +7,5 @@ from Utilities import csvReader
 
 class Test_search:
     def test_search(self, product):
-        self.driver.find_element(By.XPATH, "//input[@placeholder='Search']").send_keys(product)
-        self.driver.find_element(By.XPATH, "//button[@class='btn btn-default btn-lg']").click()
+        self.driver.find_element(By.XPATH,"//input[@placeholder='Search']").send_keys(product)
+        self.driver.find_element(By.XPATH,"//button[@class='btn btn-default btn-lg']").click()
